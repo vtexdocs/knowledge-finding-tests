@@ -2,6 +2,22 @@
 
 This directory stores **outputs** from the KR1 Phase 1 path runners: raw JSON, markdown reports, and provider-specific artifacts. Authored documentation lives in `docs/`.
 
+## Seeded historical data (KR1)
+
+This tree ships with a **pruned** copy of the KR1 run history — the distilled insights, not the raw captures. Kept:
+
+- `analysis-system/` — for every run: `aggregates_*.json`, `run_summary.json`, and `failure_list.json` (the full metric + failure trend history), plus the URL-matching analysis artifacts.
+- `analysis-system-comparisons/` — the `comparison_*.json`, `failure_delta.json`, and `multi_comparison.json` deltas between runs.
+- **One full reference run** (`analysis-system/analysis-system 2026-05-21 16-54/`) keeps its `issues_processed.json` and rendered `dashboard/`, so a complete drill-down and a browsable dashboard work out of the box.
+
+Dropped to keep the repo lean: raw collection dumps (`external-llms/`, `internal-search/`, `external-search/`, `docs-assistant/`), per-run `issues_processed.json` (except the reference run), and the regenerable dashboards. The complete raw archive lives in the source KR repo `vtexdocs/education-26h1-kr1`.
+
+To rebuild any run's dashboard from its kept aggregates:
+
+```powershell
+python "tools/test-suite/render_analysis_dashboard.py" --analysis-run "results/analysis-system/<run-folder>"
+```
+
 ## Canonical layout
 
 All runners now persist files under:

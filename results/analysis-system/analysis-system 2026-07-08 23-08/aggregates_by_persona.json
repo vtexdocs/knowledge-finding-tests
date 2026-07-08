@@ -1,0 +1,19 @@
+[
+  {
+    "persona": "Decision maker",
+    "n_queries": 27,
+    "n_tested_queries": 27,
+    "target_mean_mrr": 0.272839,
+    "target_pass_rate": 0.481481,
+    "target_mean_rank": 2.384615,
+    "target_any_locale_mean_mrr": 0.272839,
+    "target_any_locale_pass_rate": 0.481481,
+    "target_any_locale_mean_rank": 2.384615,
+    "helpful_pass_rate": 0.481481,
+    "helpful_found_rate": 0.0,
+    "helpful_any_locale_found_rate": 0.0,
+    "any_relevant_rate": 0.481481,
+    "any_relevant_any_locale_rate": 0.481481,
+    "n_not_available": 0
+  }
+]

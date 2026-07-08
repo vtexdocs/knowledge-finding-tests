@@ -1,0 +1,53 @@
+[
+  {
+    "style": "expert",
+    "n_queries": 485,
+    "n_tested_queries": 442,
+    "target_mean_mrr": 0.434702,
+    "target_pass_rate": 0.585973,
+    "target_mean_rank": 2.250965,
+    "target_any_locale_mean_mrr": 0.47075,
+    "target_any_locale_pass_rate": 0.631222,
+    "target_any_locale_mean_rank": 2.25448,
+    "helpful_pass_rate": 0.733032,
+    "helpful_found_rate": 0.271493,
+    "helpful_any_locale_found_rate": 0.319005,
+    "any_relevant_rate": 0.678733,
+    "any_relevant_any_locale_rate": 0.733032,
+    "n_not_available": 43
+  },
+  {
+    "style": "familiar",
+    "n_queries": 485,
+    "n_tested_queries": 442,
+    "target_mean_mrr": 0.406352,
+    "target_pass_rate": 0.588235,
+    "target_mean_rank": 2.480769,
+    "target_any_locale_mean_mrr": 0.44151,
+    "target_any_locale_pass_rate": 0.638009,
+    "target_any_locale_mean_rank": 2.485816,
+    "helpful_pass_rate": 0.748869,
+    "helpful_found_rate": 0.316742,
+    "helpful_any_locale_found_rate": 0.361991,
+    "any_relevant_rate": 0.690045,
+    "any_relevant_any_locale_rate": 0.748869,
+    "n_not_available": 43
+  },
+  {
+    "style": "naive",
+    "n_queries": 485,
+    "n_tested_queries": 442,
+    "target_mean_mrr": 0.377493,
+    "target_pass_rate": 0.561086,
+    "target_mean_rank": 2.681452,
+    "target_any_locale_mean_mrr": 0.406622,
+    "target_any_locale_pass_rate": 0.608597,
+    "target_any_locale_mean_rank": 2.713755,
+    "helpful_pass_rate": 0.696833,
+    "helpful_found_rate": 0.271493,
+    "helpful_any_locale_found_rate": 0.303167,
+    "any_relevant_rate": 0.653846,
+    "any_relevant_any_locale_rate": 0.696833,
+    "n_not_available": 43
+  }
+]

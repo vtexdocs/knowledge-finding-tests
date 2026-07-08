@@ -1,0 +1,5166 @@
+{
+  "new_failures": [],
+  "resolved_failures": [],
+  "still_failing": [
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "bitcoin-payment-01",
+      "query": "enabling payments with bitcoin",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "budgets-api-01",
+      "query": "budgets api",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "budgets-api-01",
+      "query": "budgets api",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "checkout-api-orders-01",
+      "query": "checkout api put orders request body",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "checkout-api-orders-01",
+      "query": "checkout api put orders request body",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "faststore-variable-renaming-01",
+      "query": "How do I rename FastStore project variables?",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "faststore-variable-renaming-01",
+      "query": "How do I rename FastStore project variables?",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "live-shopping-faststore-01",
+      "query": "implementing Live Shopping for FastStore",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "live-shopping-faststore-01",
+      "query": "implementing Live Shopping for FastStore",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "orders-api-changes-01",
+      "query": "orders api changes endpoint",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "orders-api-invoice-date-01",
+      "query": "orders api get orders invoice date",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "orders-api-invoice-date-01",
+      "query": "orders api get orders invoice date",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "payment-provider-02",
+      "query": "payments integration implementing a payment provider",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "payment-provider-02",
+      "query": "payments integration implementing a payment provider",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "pix-payment-01",
+      "query": "setting up payments with PIX provider VTEX",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "pix-payment-01",
+      "query": "setting up payments with PIX provider VTEX",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "export product information to Excel VTEX",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "export product information to Excel VTEX",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "pwa-implementation-01",
+      "query": "How to configure Progressive Web App in VTEX IO Store Framework?",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "sales-associates-salesapp-01",
+      "query": "managing sales associates in VTEX Sales App",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "sap-catalog-01",
+      "query": "integrate catalog from SAP VTEX backend integrations",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "sap-catalog-01",
+      "query": "integrate catalog from SAP VTEX backend integrations",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "shopee-integration-01",
+      "query": "install and configure Shopee connector",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "shopee-integration-01",
+      "query": "install and configure Shopee connector",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "bitcoin-payment-01",
+      "query": "vtex bitcoin payment method setup",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "budgets-api-01",
+      "query": "vtex budgets api create",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "budgets-api-01",
+      "query": "vtex budgets api create",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "checkout-api-orders-01",
+      "query": "vtex checkout api put orders json payload",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "checkout-api-orders-01",
+      "query": "vtex checkout api put orders json payload",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "content-delivery-optimization-01",
+      "query": "vtex content delivery CDN",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "faststore-variable-renaming-01",
+      "query": "What's the process for renaming variables in FastStore?",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "github-repository-migration-01",
+      "query": "What are the steps to transfer a GitHub repository between organizations?",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "live-shopping-component-01",
+      "query": "add Live Shopping component to storefront VTEX",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "live-shopping-component-01",
+      "query": "add Live Shopping component to storefront VTEX",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "live-shopping-faststore-01",
+      "query": "add live shopping player to FastStore",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "live-shopping-faststore-01",
+      "query": "add live shopping player to FastStore",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "vtex marketplace order integration",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "vtex marketplace order integration",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "orders-api-changes-01",
+      "query": "vtex orders api get changes",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "orders-api-invoice-date-01",
+      "query": "vtex orders api invoice date filter",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "payment-provider-01",
+      "query": "vtex payment provider integration guide",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "payment-provider-01",
+      "query": "vtex payment provider integration guide",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "payment-provider-02",
+      "query": "vtex payment provider implementation guide",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "pix-payment-01",
+      "query": "configure PIX payment provider VTEX",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "pix-payment-01",
+      "query": "configure PIX payment provider VTEX",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "VTEX catalog export to spreadsheet",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "VTEX catalog export to spreadsheet",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "store-order-not-created-01",
+      "query": "vtex store order creation error",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "store-order-not-created-01",
+      "query": "vtex store order creation error",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "support-work-01",
+      "query": "vtex support",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "webops-github-connection-01",
+      "query": "What are the steps to integrate GitHub with WebOps?",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "bitcoin-payment-01",
+      "query": "vtex docs on enabling bitcoin payments",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "budgets-api-01",
+      "query": "vtex docs for creating budgets via api",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "budgets-api-01",
+      "query": "vtex docs for creating budgets via api",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "checkout-api-orders-01",
+      "query": "vtex docs checkout api update order request body data format",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "checkout-api-orders-01",
+      "query": "vtex docs checkout api update order request body data format",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "faststore-variable-renaming-01",
+      "query": "How can I change the names of variables in my FastStore project?",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "faststore-variable-renaming-01",
+      "query": "How can I change the names of variables in my FastStore project?",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "github-repository-migration-01",
+      "query": "How do I move my repository to a different organization account?",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "vtex docs marketplace orders integration errors",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "vtex docs marketplace orders integration errors",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "orders-api-changes-01",
+      "query": "vtex docs for getting order changes history via api",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "payment-provider-01",
+      "query": "vtex docs on adding a payment provider",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "payment-provider-01",
+      "query": "vtex docs on adding a payment provider",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "payment-provider-02",
+      "query": "vtex docs on building a payment provider",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "payment-provider-02",
+      "query": "vtex docs on building a payment provider",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "pix-payment-01",
+      "query": "how to accept PIX payments in my store",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "pix-payment-01",
+      "query": "how to accept PIX payments in my store",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "how to get product data in excel",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "how to get product data in excel",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "product-indexing-01",
+      "query": "why are my product changes not showing up in search",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "product-indexing-01",
+      "query": "why are my product changes not showing up in search",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "product-not-visible-01",
+      "query": "why can't customers see my products",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "shopee-integration-01",
+      "query": "how to connect my store to Shopee",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "shopee-integration-01",
+      "query": "how to connect my store to Shopee",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "audit-search-01",
+      "query": "auditoría",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "audit-search-01",
+      "query": "auditoría",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "bitcoin-payment-01",
+      "query": "habilitar pagos con bitcoin",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "live-shopping-component-01",
+      "query": "insertar el componente Live Shopping",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "pedidos del marketplace integrar tienda",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "pedidos del marketplace integrar tienda",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "exportar información de productos a Excel VTEX",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "exportar información de productos a Excel VTEX",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "shopee-integration-01",
+      "query": "instalar y configurar conector Shopee",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "shopee-integration-01",
+      "query": "instalar y configurar conector Shopee",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "vtex integración de pedidos del marketplace",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "vtex integración de pedidos del marketplace",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "VTEX exportar catálogo a hoja de cálculo",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "VTEX exportar catálogo a hoja de cálculo",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "settlement-payment-01",
+      "query": "guía de tipos de liquidación de pagos vtex",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "shopee-integration-01",
+      "query": "configurar conector Shopee integración de marketplace",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "shopee-integration-01",
+      "query": "configurar conector Shopee integración de marketplace",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "store-order-not-created-01",
+      "query": "vtex error de creación de pedido en tienda",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "bitcoin-payment-01",
+      "query": "vtex docs sobre habilitación de pagos con bitcoin",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "live-shopping-component-01",
+      "query": "cómo colocar un reproductor de transmisión en vivo en mi página de tienda",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "live-shopping-component-01",
+      "query": "cómo colocar un reproductor de transmisión en vivo en mi página de tienda",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "pix-payment-01",
+      "query": "cómo aceptar pagos PIX en mi tienda",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "pix-payment-01",
+      "query": "cómo aceptar pagos PIX en mi tienda",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "cómo obtener datos de productos en excel",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "cómo obtener datos de productos en excel",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "product-indexing-01",
+      "query": "por qué los cambios de mis productos no aparecen en la búsqueda",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "product-indexing-01",
+      "query": "por qué los cambios de mis productos no aparecen en la búsqueda",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "shopee-integration-01",
+      "query": "cómo conectar mi tienda a Shopee",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "shopee-integration-01",
+      "query": "cómo conectar mi tienda a Shopee",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "bitcoin-payment-01",
+      "query": "habilitando pagamentos com bitcoin",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "pedidos do marketplace integrar loja",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "pedidos do marketplace integrar loja",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "pix-payment-01",
+      "query": "configurar pagamentos com provedor PIX VTEX",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "pix-payment-01",
+      "query": "configurar pagamentos com provedor PIX VTEX",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "exportar informações de produtos para Excel VTEX",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "exportar informações de produtos para Excel VTEX",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "pwa-implementation-01",
+      "query": "Como configurar Progressive Web App no VTEX IO Store Framework?",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "bitcoin-payment-01",
+      "query": "configuração de método de pagamento bitcoin vtex",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "live-shopping-component-01",
+      "query": "adicionar componente Live Shopping ao storefront VTEX",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "live-shopping-component-01",
+      "query": "adicionar componente Live Shopping ao storefront VTEX",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "vtex integração de pedidos do marketplace",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "pix-payment-01",
+      "query": "configurar provedor de pagamento PIX VTEX",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "pix-payment-01",
+      "query": "configurar provedor de pagamento PIX VTEX",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "VTEX exportar catálogo para planilha",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "VTEX exportar catálogo para planilha",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "settlement-payment-01",
+      "query": "guia de tipos de liquidação de pagamento vtex",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "vtex comércio unificado",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "audit-search-01",
+      "query": "vtex docs sobre recursos de auditoria e segurança",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "audit-search-01",
+      "query": "vtex docs sobre recursos de auditoria e segurança",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "conditions-payment-01",
+      "query": "vtex docs sobre condições especiais para pagamentos",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "conditions-payment-01",
+      "query": "vtex docs sobre condições especiais para pagamentos",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "live-shopping-component-01",
+      "query": "como colocar um player de transmissão ao vivo na minha página de loja",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "live-shopping-component-01",
+      "query": "como colocar um player de transmissão ao vivo na minha página de loja",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "vtex docs erros de integração de pedidos do marketplace",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "vtex docs erros de integração de pedidos do marketplace",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "como obter dados de produtos em excel",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "como obter dados de produtos em excel",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "product-indexing-01",
+      "query": "por que as alterações nos meus produtos não aparecem na busca",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "product-indexing-01",
+      "query": "por que as alterações nos meus produtos não aparecem na busca",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "pwa-implementation-01",
+      "query": "Como posso fazer minha loja funcionar como um aplicativo móvel que os clientes podem instalar?",
+      "link_source": "markdown"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "pwa-implementation-01",
+      "query": "Como posso fazer minha loja funcionar como um aplicativo móvel que os clientes podem instalar?",
+      "link_source": "suggested_sources"
+    },
+    {
+      "path": "docs-assistant.api",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "vtex docs quais são as capacidades omnichannel",
+      "link_source": "markdown"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "bitcoin-payment-01",
+      "query": "enabling payments with bitcoin vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "budgets-api-01",
+      "query": "budgets api create budget vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "checkout-api-orders-01",
+      "query": "checkout api put orders json payload structure vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "github-repository-migration-01",
+      "query": "transfer GitHub repository ownership between organizations",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "live-shopping-component-01",
+      "query": "placing the Live Shopping component VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "why don't marketplace orders integrate with VTEX store",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "orders-api-changes-01",
+      "query": "orders api get order changes vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "orders-api-invoice-date-01",
+      "query": "VTEX orders api get orders by invoice date",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "pix-payment-01",
+      "query": "how to set up PIX payment provider in VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "export all product information to Excel VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "refund-payment-01",
+      "query": "payment refunds vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "sap-catalog-01",
+      "query": "integrate catalog from SAP ERP to VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "shopee-integration-01",
+      "query": "install and configure Shopee connector VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "budgets-api-01",
+      "query": "create budget api vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "checkout-api-orders-01",
+      "query": "checkout api update order request body format vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "github-repository-migration-01",
+      "query": "migrate GitHub repository to another organization",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "live-shopping-component-01",
+      "query": "VTEX Live Shopping component setup storefront",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "orders-api-changes-01",
+      "query": "get order modifications history api vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "pix-payment-01",
+      "query": "enable PIX payment in my VTEX store",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "VTEX export catalog to Excel",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "pwa-implementation-01",
+      "query": "convert ecommerce site to progressive web app",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "sap-catalog-01",
+      "query": "sync SAP product catalog to VTEX store",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "shopee-integration-01",
+      "query": "VTEX Shopee marketplace connector setup",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "webops-github-connection-01",
+      "query": "connect WebOps to GitHub repository",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "audit-search-01",
+      "query": "does vtex have audit logging capabilities",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "budgets-api-01",
+      "query": "how to create budgets in vtex using the api",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "checkout-api-orders-01",
+      "query": "how to send order data in vtex checkout api what format",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "cms-migration-01",
+      "query": "How to migrate my VTEX online store without breaking it and how to undo if something goes wrong",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "github-repository-migration-01",
+      "query": "how to move a VTEX code repository to a different company account",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "live-shopping-component-01",
+      "query": "how to add live video player to my VTEX ecommerce website",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "live-shopping-faststore-01",
+      "query": "how to add live video streaming to my VTEX online store",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "orders-api-changes-01",
+      "query": "how to get order changes history in VTEX using the api",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "orders-api-invoice-date-01",
+      "query": "how to find orders by invoice date in VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "pix-payment-01",
+      "query": "accept instant bank transfers from customers in my VTEX online store",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "get all my VTEX products in a spreadsheet",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "pwa-implementation-01",
+      "query": "how do I make my VTEX online store work offline and install like an app",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "shopee-integration-01",
+      "query": "connect my VTEX online store to Shopee so I can sell there",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "what are VTEX's omnichannel capabilities",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "webops-github-connection-01",
+      "query": "how do I link my VTEX website deployment tool to github",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "webstore-oauth2-01",
+      "query": "let customers log in with our company login instead of creating a new account in VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "bitcoin-payment-01",
+      "query": "habilitar pagos con bitcoin vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "live-shopping-component-01",
+      "query": "insertar componente Live Shopping VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "pix-payment-01",
+      "query": "cómo configurar proveedor de pago PIX en VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "exportar toda la información de productos a Excel VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "refund-payment-01",
+      "query": "reembolso de pagos vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "shopee-integration-01",
+      "query": "instalar y configurar conector Shopee VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "split-payment-01",
+      "query": "split de pagos vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "support-work-01",
+      "query": "planes de soporte VTEX sistema de tickets",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "estrategia de comercio unificado VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "bitcoin-payment-01",
+      "query": "configurar método de pago bitcoin vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "live-shopping-component-01",
+      "query": "configuración del componente Live Shopping VTEX storefront",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "VTEX exportar catálogo a Excel",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "pwa-implementation-01",
+      "query": "convertir sitio de ecommerce en aplicación web progresiva",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "refund-payment-01",
+      "query": "identificar método de reembolso de pago vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "sales-associates-salesapp-01",
+      "query": "VTEX Sales App agregar vendedores",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "settlement-payment-01",
+      "query": "vtex tipos de liquidación de pagos",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "shopee-integration-01",
+      "query": "configuración del conector de marketplace VTEX Shopee",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "split-payment-01",
+      "query": "vtex split de pagos explicado",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "store-order-not-created-01",
+      "query": "error de creación de pedido VTEX inventario",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "características de comercio unificado VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "bitcoin-payment-01",
+      "query": "cómo habilitar pagos con bitcoin en mi tienda vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "live-shopping-component-01",
+      "query": "cómo agregar reproductor de video en vivo a mi sitio de ecommerce VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "pedidos del marketplace VTEX sin integrar",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "pix-payment-01",
+      "query": "aceptar transferencias bancarias instantáneas de clientes en mi tienda VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "obtener todos mis productos VTEX en una hoja de cálculo",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "product-indexing-01",
+      "query": "mis productos no se actualizan en los resultados de búsqueda de mi tienda VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "pwa-implementation-01",
+      "query": "cómo hago que mi tienda VTEX funcione sin conexión y se instale como una app",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "settlement-payment-01",
+      "query": "tipos de liquidación de pagos en vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "shopee-integration-01",
+      "query": "conectar mi tienda VTEX a Shopee para vender allí",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "store-order-not-created-01",
+      "query": "solución de problemas de pedido VTEX no creado",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "por que os pedidos do marketplace não integram com a loja VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "exportar todas as informações de produtos para Excel VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "settlement-payment-01",
+      "query": "tipos de liquidação de pagamento vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "store-order-not-created-01",
+      "query": "o pedido da minha loja não foi criado VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "bitcoin-payment-01",
+      "query": "configurar método de pagamento bitcoin vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "erros de integração de pedidos do marketplace VTEX solução de problemas",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "VTEX exportar catálogo para Excel",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "settlement-payment-01",
+      "query": "vtex tipos de liquidação de pagamento",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "store-order-not-created-01",
+      "query": "erro de criação de pedido VTEX inventário",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "live-shopping-component-01",
+      "query": "como adicionar player de vídeo ao vivo no meu site de ecommerce VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "pix-payment-01",
+      "query": "aceitar transferências bancárias instantâneas de clientes na minha loja VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "obter todos os meus produtos VTEX em uma planilha",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "product-indexing-01",
+      "query": "meus produtos não estão sendo atualizados nos resultados de busca da minha loja VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "settlement-payment-01",
+      "query": "tipos de liquidação de pagamento no vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "store-order-not-created-01",
+      "query": "solução de problemas de pedido VTEX não criado",
+      "link_source": "-"
+    },
+    {
+      "path": "external-search.google-search-playwright",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "quais são as capacidades omnichannel da VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "audit-search-01",
+      "query": "audit",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "checkout-api-orders-01",
+      "query": "checkout api orders payload",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "cms-migration-01",
+      "query": "CMS Legacy Store Framework migration rollback",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "faststore-dynamic-routes-plp-01",
+      "query": "FastStore dynamic routes product listing pages",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "faststore-variable-renaming-01",
+      "query": "variable renaming faststore",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "github-repository-migration-01",
+      "query": "repository organization transfer",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "live-shopping-component-01",
+      "query": "placing Live Shopping component",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "live-shopping-faststore-01",
+      "query": "live shopping FastStore implementation",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "orders-api-changes-01",
+      "query": "orders api changes",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "sap-catalog-01",
+      "query": "integrate catalog SAP ERP VTEX backend",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "webops-github-connection-01",
+      "query": "WebOps GitHub repository connection",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "audit-search-01",
+      "query": "audit trail compliance",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "checkout-api-orders-01",
+      "query": "put orders checkout json structure",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "cms-migration-01",
+      "query": "Store Framework migration production rollback",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "faststore-dynamic-routes-plp-01",
+      "query": "FastStore PLP routing",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "faststore-variable-renaming-01",
+      "query": "rename variables faststore",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "github-repository-migration-01",
+      "query": "GitHub repo migration transfer",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "live-shopping-component-01",
+      "query": "Live Shopping component storefront",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "orders-api-invoice-date-01",
+      "query": "get orders by invoice creation date",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "payment-provider-01",
+      "query": "payment provider integration",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "sap-catalog-01",
+      "query": "SAP catalog VTEX sync integration",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "webops-github-connection-01",
+      "query": "WebOps GitHub integration",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "audit-search-01",
+      "query": "audit capabilities security",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "checkout-api-orders-01",
+      "query": "checkout api order request body format",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "cms-migration-01",
+      "query": "migrate store safely undo changes",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "customer-credit-01",
+      "query": "customer credit api",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "faststore-dynamic-routes-plp-01",
+      "query": "FastStore category page URL structure",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "faststore-variable-renaming-01",
+      "query": "change variable names",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "github-repository-migration-01",
+      "query": "move repository organization",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "live-shopping-component-01",
+      "query": "add video player store",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "live-shopping-faststore-01",
+      "query": "live video streaming store",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "payment-provider-01",
+      "query": "add payment provider vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "payment-provider-02",
+      "query": "build payment provider vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "sap-catalog-01",
+      "query": "product catalog business software online store",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "webops-github-connection-01",
+      "query": "github connect deployment",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-devportal",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "webstore-oauth2-01",
+      "query": "custom login external identity",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "audit-search-01",
+      "query": "audit",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "bitcoin-payment-01",
+      "query": "enabling payments with bitcoin",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "conditions-payment-01",
+      "query": "special conditions",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "live-shopping-component-01",
+      "query": "placing Live Shopping component",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "live-shopping-faststore-01",
+      "query": "live shopping FastStore implementation",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "marketplace orders integrate store troubleshooting",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "orders-api-invoice-date-01",
+      "query": "orders api invoice date",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "pix-payment-01",
+      "query": "set up PIX payment provider VTEX Store Settings",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "export products Excel VTEX catalog",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "product-indexing-01",
+      "query": "catalog indexing troubleshooting",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "product-not-visible-01",
+      "query": "product not visible site FAQ",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "pwa-implementation-01",
+      "query": "PWA VTEX IO configuration",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "refund-payment-01",
+      "query": "payment refunds",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "sales-associates-salesapp-01",
+      "query": "managing sales associates VTEX Sales App",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "settlement-payment-01",
+      "query": "payment settlement types",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "shopee-integration-01",
+      "query": "install configure Shopee connector VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "store-order-not-created-01",
+      "query": "store order not created troubleshooting",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "support-work-01",
+      "query": "support plans ticket system",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "audit-search-01",
+      "query": "audit trail compliance",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "bitcoin-payment-01",
+      "query": "enable bitcoin payments",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "conditions-payment-01",
+      "query": "payment method conditions",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "orders-api-invoice-date-01",
+      "query": "get orders by invoice creation date",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "pix-payment-01",
+      "query": "PIX payment VTEX provider setup",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "catalog export Excel download",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "sales-associates-salesapp-01",
+      "query": "sales associates Sales App",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "settlement-payment-01",
+      "query": "settlement types",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "shopee-integration-01",
+      "query": "Shopee connector configure marketplace",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "store-order-not-created-01",
+      "query": "order creation error inventory out of stock",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "support-work-01",
+      "query": "VTEX support ticket",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "unified commerce",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "audit-search-01",
+      "query": "audit capabilities security",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "bitcoin-payment-01",
+      "query": "bitcoin payment vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "conciliations-payment-01",
+      "query": "bank reconciliation boleto",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "conditions-payment-01",
+      "query": "special conditions payments",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "live-shopping-component-01",
+      "query": "add video player store",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "live-shopping-faststore-01",
+      "query": "live video streaming store",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "pix-payment-01",
+      "query": "payment instant transfer online store",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "product export excel spreadsheet",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "product-indexing-01",
+      "query": "products not updating search",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "pwa-implementation-01",
+      "query": "offline app install store",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "refund-payment-01",
+      "query": "payment refunds",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "sales-associates-salesapp-01",
+      "query": "add employees store app",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "settlement-payment-01",
+      "query": "payment settlement types",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "shopee-integration-01",
+      "query": "connect store Shopee sell",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "store-order-not-created-01",
+      "query": "order not created",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "omnichannel capabilities",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "audit-search-01",
+      "query": "auditoría",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "bitcoin-payment-01",
+      "query": "habilitar pagos con bitcoin",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "conditions-payment-01",
+      "query": "condiciones especiales",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "pedidos del marketplace integrar tienda solución de problemas",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "pix-payment-01",
+      "query": "configurar proveedor de pago PIX VTEX configuración de tienda",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "exportar productos Excel VTEX catálogo",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "product-indexing-01",
+      "query": "solución de problemas de indexación del catálogo",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "product-not-visible-01",
+      "query": "producto no visible sitio FAQ",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "refund-payment-01",
+      "query": "reembolso de pagos",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "sales-associates-salesapp-01",
+      "query": "gestionar vendedores VTEX Sales App",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "settlement-payment-01",
+      "query": "tipos de liquidación de pagos",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "shopee-integration-01",
+      "query": "instalar configurar conector Shopee VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "split-payment-01",
+      "query": "split de pagos",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "store-order-not-created-01",
+      "query": "pedido de tienda no creado solución de problemas",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "support-work-01",
+      "query": "planes de soporte sistema de tickets",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "estrategia de comercio unificado",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "audit-search-01",
+      "query": "rastro de auditoría cumplimiento",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "bitcoin-payment-01",
+      "query": "habilitar pagos con bitcoin",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "conditions-payment-01",
+      "query": "condiciones de método de pago",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "pix-payment-01",
+      "query": "configuración de proveedor PIX VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "exportar catálogo Excel descarga",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "product-indexing-01",
+      "query": "problemas de indexación de productos",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "product-not-visible-01",
+      "query": "producto no visible en el sitio",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "refund-payment-01",
+      "query": "método de reembolso",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "sales-associates-salesapp-01",
+      "query": "vendedores Sales App",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "settlement-payment-01",
+      "query": "tipos de liquidación",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "shopee-integration-01",
+      "query": "Shopee conector configurar marketplace",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "split-payment-01",
+      "query": "split de pagos",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "store-order-not-created-01",
+      "query": "error de creación de pedido inventario sin stock",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "comercio unificado",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "audit-search-01",
+      "query": "capacidades de auditoría seguridad",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "bitcoin-payment-01",
+      "query": "pago bitcoin vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "conciliations-payment-01",
+      "query": "conciliación bancaria boleto",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "conditions-payment-01",
+      "query": "condiciones especiales pagos",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "live-shopping-component-01",
+      "query": "agregar reproductor de video tienda",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "pix-payment-01",
+      "query": "pago transferencia instantánea tienda online",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "exportar producto excel hoja de cálculo",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "product-indexing-01",
+      "query": "productos sin actualizar búsqueda",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "pwa-implementation-01",
+      "query": "instalación offline app tienda",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "refund-payment-01",
+      "query": "reembolso de pagos",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "sales-associates-salesapp-01",
+      "query": "agregar empleados app tienda",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "settlement-payment-01",
+      "query": "tipos de liquidación de pagos",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "shopee-integration-01",
+      "query": "conectar tienda Shopee vender",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "split-payment-01",
+      "query": "split de pagos",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "store-order-not-created-01",
+      "query": "pedido no creado",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "capacidades omnichannel",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "audit-search-01",
+      "query": "auditoria",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "bitcoin-payment-01",
+      "query": "habilitando pagamentos com bitcoin",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "conditions-payment-01",
+      "query": "condições especiais",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "live-shopping-component-01",
+      "query": "inserir componente Live Shopping",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "pedidos do marketplace integrar loja solução de problemas",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "pix-payment-01",
+      "query": "configurar provedor de pagamento PIX VTEX configurações da loja",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "exportar produtos Excel VTEX catálogo",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "product-indexing-01",
+      "query": "solução de problemas de indexação do catálogo",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "product-not-visible-01",
+      "query": "produto não visível site FAQ",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "sales-associates-salesapp-01",
+      "query": "gerenciar vendedores VTEX Sales App",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "settlement-payment-01",
+      "query": "tipos de liquidação de pagamento",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "shopee-integration-01",
+      "query": "instalar configurar conector Shopee VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "store-order-not-created-01",
+      "query": "pedido da loja não criado solução de problemas",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "support-work-01",
+      "query": "planos de suporte sistema de tickets",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "estratégia de comércio unificado",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "audit-search-01",
+      "query": "trilha de auditoria conformidade",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "bitcoin-payment-01",
+      "query": "habilitar pagamentos com bitcoin",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "conditions-payment-01",
+      "query": "condições de método de pagamento",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "exportar catálogo Excel download",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "product-indexing-01",
+      "query": "problemas de indexação de produtos",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "refund-payment-01",
+      "query": "método de reembolso",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "sales-associates-salesapp-01",
+      "query": "vendedores Sales App",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "settlement-payment-01",
+      "query": "tipos de liquidação",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "shopee-integration-01",
+      "query": "Shopee conector configurar marketplace",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "store-order-not-created-01",
+      "query": "erro de criação de pedido inventário sem estoque",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "support-work-01",
+      "query": "ticket de suporte VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "comércio unificado",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "audit-search-01",
+      "query": "recursos de auditoria segurança",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "conditions-payment-01",
+      "query": "condições especiais pagamentos",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "live-shopping-component-01",
+      "query": "adicionar player de vídeo loja",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "integração de pedidos do marketplace",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "pix-payment-01",
+      "query": "pagamento transferência instantânea loja online",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "exportar produto excel planilha",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "product-indexing-01",
+      "query": "produtos não atualizando busca",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "pwa-implementation-01",
+      "query": "instalação offline app loja",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "sales-associates-salesapp-01",
+      "query": "adicionar funcionários aplicativo loja",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "settlement-payment-01",
+      "query": "tipos de liquidação de pagamento",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "store-order-not-created-01",
+      "query": "pedido não criado",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.algolia-helpcenter",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "capacidades omnichannel",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "budgets-api-01",
+      "query": "budgets api",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "checkout-api-orders-01",
+      "query": "checkout api orders payload",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "faststore-dynamic-routes-plp-01",
+      "query": "FastStore dynamic routes product listing pages",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "faststore-variable-renaming-01",
+      "query": "variable renaming faststore",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "orders-api-changes-01",
+      "query": "orders api changes",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "orders-api-invoice-date-01",
+      "query": "orders api invoice date",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "pix-payment-01",
+      "query": "set up PIX payment provider VTEX Store Settings",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "export products Excel VTEX catalog",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "shopee-integration-01",
+      "query": "install configure Shopee connector VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "store-order-not-created-01",
+      "query": "store order not created troubleshooting",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "budgets-api-01",
+      "query": "create budget",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "checkout-api-orders-01",
+      "query": "put orders checkout json structure",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "faststore-variable-renaming-01",
+      "query": "rename variables faststore",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "live-shopping-faststore-01",
+      "query": "FastStore live shopping",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "orders-api-changes-01",
+      "query": "get order modifications",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "pix-payment-01",
+      "query": "PIX payment VTEX provider setup",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "catalog export Excel download",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "sap-catalog-01",
+      "query": "SAP catalog VTEX sync integration",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "shopee-integration-01",
+      "query": "Shopee connector configure marketplace",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "store-order-not-created-01",
+      "query": "order creation error inventory out of stock",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "support-work-01",
+      "query": "VTEX support ticket",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "budgets-api-01",
+      "query": "budget api create",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "checkout-api-orders-01",
+      "query": "checkout api order request body format",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "cms-migration-01",
+      "query": "migrate store safely undo changes",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "faststore-variable-renaming-01",
+      "query": "change variable names",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "live-shopping-faststore-01",
+      "query": "live video streaming store",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "orders-api-changes-01",
+      "query": "order changes history api",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "payment-provider-02",
+      "query": "build payment provider vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "pix-payment-01",
+      "query": "payment instant transfer online store",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "product export excel spreadsheet",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "store-order-not-created-01",
+      "query": "order not created",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "pix-payment-01",
+      "query": "configurar proveedor de pago PIX VTEX configuración de tienda",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "exportar productos Excel VTEX catálogo",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "shopee-integration-01",
+      "query": "instalar configurar conector Shopee VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "support-work-01",
+      "query": "planes de soporte sistema de tickets",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "conditions-payment-01",
+      "query": "condiciones de método de pago",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "pix-payment-01",
+      "query": "configuración de proveedor PIX VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "exportar catálogo Excel descarga",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "shopee-integration-01",
+      "query": "Shopee conector configurar marketplace",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "support-work-01",
+      "query": "ticket de soporte VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "audit-search-01",
+      "query": "capacidades de auditoría seguridad",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "pix-payment-01",
+      "query": "pago transferencia instantánea tienda online",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "exportar producto excel hoja de cálculo",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "product-indexing-01",
+      "query": "productos sin actualizar búsqueda",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "sales-associates-salesapp-01",
+      "query": "agregar empleados app tienda",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "shopee-integration-01",
+      "query": "conectar tienda Shopee vender",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "support-work-01",
+      "query": "soporte ayuda",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "pix-payment-01",
+      "query": "configurar provedor de pagamento PIX VTEX configurações da loja",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "exportar produtos Excel VTEX catálogo",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "support-work-01",
+      "query": "planos de suporte sistema de tickets",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "conditions-payment-01",
+      "query": "condições de método de pagamento",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "support-work-01",
+      "query": "ticket de suporte VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "pix-payment-01",
+      "query": "pagamento transferência instantânea loja online",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "exportar produto excel planilha",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "sales-associates-salesapp-01",
+      "query": "adicionar funcionários aplicativo loja",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "shopee-integration-01",
+      "query": "conectar loja Shopee vender",
+      "link_source": "-"
+    },
+    {
+      "path": "internal-search.hybrid-search",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "support-work-01",
+      "query": "suporte ajuda",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "budgets-api-01",
+      "query": "how to create budgets via vtex budgets api",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "checkout-api-orders-01",
+      "query": "how to format json payload for vtex checkout api put orders endpoint",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "conditions-payment-01",
+      "query": "how to configure special conditions for payment methods in vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "customer-credit-01",
+      "query": "how to manage a customer credit account via vtex api",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "github-repository-migration-01",
+      "query": "How do I transfer repository ownership between GitHub organizations and what are the implications for access controls...",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "orders-api-changes-01",
+      "query": "how to get order changes via vtex orders api",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "orders-api-invoice-date-01",
+      "query": "how to query orders by invoice date using vtex orders api",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "payment-provider-02",
+      "query": "how to implement a payment provider for vtex payments integration",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "pix-payment-01",
+      "query": "How do I configure a PIX payment provider in VTEX Admin?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "What's the way to export all product information to Excel in VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "sap-catalog-01",
+      "query": "How do I integrate the catalog from SAP ERP to VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "shopee-integration-01",
+      "query": "How do I install and configure the Shopee connector for VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "webops-github-connection-01",
+      "query": "How do I configure GitHub integration in VTEX WebOps to enable repository-based deployments?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "budgets-api-01",
+      "query": "what api endpoint creates budgets in vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "checkout-api-orders-01",
+      "query": "what is the request body structure for updating orders in vtex checkout api",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "conciliations-payment-01",
+      "query": "steps to reconcile boleto payments in vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "conditions-payment-01",
+      "query": "steps to set special conditions for vtex payment methods",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "customer-credit-01",
+      "query": "what are the api steps to manage customer credit in vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "faststore-variable-renaming-01",
+      "query": "What's the best way to rename variables in a FastStore project?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "github-repository-migration-01",
+      "query": "What's the process for migrating a GitHub repository from one organization to another organization while keeping all ...",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "orders-api-changes-01",
+      "query": "what api endpoint returns order modifications history in vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "orders-api-invoice-date-01",
+      "query": "what api endpoint lets me filter orders by invoice creation date in vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "pix-payment-01",
+      "query": "How do I set up PIX payment in my VTEX store?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "How do I export my VTEX product catalog to Excel?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "pwa-implementation-01",
+      "query": "What are the steps to turn my ecommerce website into a progressive web app?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "refund-payment-01",
+      "query": "where can i see refund details in vtex payments",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "sap-catalog-01",
+      "query": "How do I sync my SAP product catalog with VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "shopee-integration-01",
+      "query": "How do I set up the VTEX Shopee connector in Admin?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "split-payment-01",
+      "query": "explain how payment split works in vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "webops-github-connection-01",
+      "query": "What's the process for connecting a VTEX WebOps project to a GitHub repository for version control?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "budgets-api-01",
+      "query": "how do i create a budget using vtex api",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "checkout-api-orders-01",
+      "query": "what data format do i need to send when updating an order in vtex checkout api",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "conditions-payment-01",
+      "query": "how do i configure special conditions for payment methods in vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "github-repository-migration-01",
+      "query": "I need to move my GitHub repository from one company's GitHub account to another company's account in VTEX. How can I...",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "live-shopping-component-01",
+      "query": "How do I add a live video player to my VTEX online store homepage?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "orders-api-changes-01",
+      "query": "how do i get the history of changes made to an order using vtex api",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "orders-api-invoice-date-01",
+      "query": "how do i find orders created on a specific invoice date in vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "pix-payment-01",
+      "query": "How can I let customers pay with PIX in my VTEX store?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "How can I get a list of all my products in Excel from my VTEX store?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "sap-catalog-01",
+      "query": "How do I get my product catalog from SAP into my VTEX store?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "shopee-integration-01",
+      "query": "How can I sell on Shopee with my VTEX store?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "what omnichannel features does VTEX offer",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "bitcoin-payment-01",
+      "query": "cómo habilitar pagos con bitcoin en vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "conditions-payment-01",
+      "query": "cómo configurar condiciones especiales para métodos de pago en vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "live-shopping-component-01",
+      "query": "¿Cómo coloco el componente Live Shopping en mi storefront VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "por qué los pedidos del marketplace no se integran con mi tienda VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "pix-payment-01",
+      "query": "¿Cómo configuro un proveedor de pago PIX en VTEX Admin?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "¿Cuál es la manera de exportar toda la información de productos a Excel en VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "pwa-implementation-01",
+      "query": "¿Cómo implemento la funcionalidad PWA en una tienda VTEX Store Framework?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "refund-payment-01",
+      "query": "cómo identificar reembolsos de pagos en vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "sales-associates-salesapp-01",
+      "query": "¿Cómo gestiono vendedores en VTEX Sales App?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "shopee-integration-01",
+      "query": "¿Cómo instalo y configuro el conector Shopee para VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "split-payment-01",
+      "query": "cómo funciona el split de pagos en vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "store-order-not-created-01",
+      "query": "el pedido de mi tienda VTEX no fue creado qué debo verificar",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "cómo funciona el comercio unificado de VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "audit-search-01",
+      "query": "cómo maneja vtex los rastros de auditoría y el cumplimiento",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "bitcoin-payment-01",
+      "query": "pasos para configurar bitcoin como método de pago en vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "conciliations-payment-01",
+      "query": "pasos para conciliar pagos con boleto en vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "conditions-payment-01",
+      "query": "pasos para establecer condiciones especiales para métodos de pago vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "pix-payment-01",
+      "query": "¿Cómo configuro el pago PIX en mi tienda VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "¿Cómo exporto mi catálogo de productos VTEX a Excel?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "product-indexing-01",
+      "query": "¿Cómo corrijo problemas de indexación de productos en VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "product-not-visible-01",
+      "query": "¿Por qué mi producto VTEX no aparece en el sitio web?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "pwa-implementation-01",
+      "query": "¿Cuáles son los pasos para convertir mi sitio de ecommerce en una aplicación web progresiva?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "refund-payment-01",
+      "query": "dónde puedo ver los detalles de reembolso en pagos vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "shopee-integration-01",
+      "query": "¿Cómo configuro el conector VTEX Shopee en Admin?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "store-order-not-created-01",
+      "query": "cómo corregir errores de creación de pedidos en VTEX cuando el inventario está sin stock",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "support-work-01",
+      "query": "cómo funciona el sistema de soporte de VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "qué es el comercio unificado en VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "bitcoin-payment-01",
+      "query": "cómo configurar pagos con bitcoin en mi tienda vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "conciliations-payment-01",
+      "query": "cómo gestionar conciliaciones bancarias para pagos con boleto en vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "conditions-payment-01",
+      "query": "cómo configurar condiciones especiales para métodos de pago en vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "live-shopping-component-01",
+      "query": "¿Cómo agrego un reproductor de video en vivo a la página de inicio de mi tienda VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "por qué mis pedidos del marketplace no aparecen en VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "pix-payment-01",
+      "query": "¿Cómo puedo dejar que los clientes paguen con PIX en mi tienda VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "¿Cómo puedo obtener una lista de todos mis productos en Excel de mi tienda VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "pwa-implementation-01",
+      "query": "Quiero que mis clientes puedan instalar mi sitio de tienda VTEX en sus teléfonos como una app. ¿Cómo hago eso?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "refund-payment-01",
+      "query": "cómo identifico cómo se realizó un reembolso de pago en vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "settlement-payment-01",
+      "query": "qué tipos de liquidación de pagos tiene vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "shopee-integration-01",
+      "query": "¿Cómo puedo vender en Shopee con mi tienda VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "split-payment-01",
+      "query": "cómo entiendo el split de pagos en vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "support-work-01",
+      "query": "cómo obtengo soporte de VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "qué características omnichannel ofrece VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "conditions-payment-01",
+      "query": "como configurar condições especiais para métodos de pagamento no vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "Qual é a forma de exportar todas as informações de produtos para Excel no VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "product-indexing-01",
+      "query": "Como resolvo problemas de indexação de produtos no VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "support-work-01",
+      "query": "quais são os planos de suporte da VTEX e como funcionam os tickets",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "audit-search-01",
+      "query": "como o vtex gerencia trilhas de auditoria e conformidade",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "conciliations-payment-01",
+      "query": "passos para conciliar pagamentos com boleto no vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "como corrigir erros de integração de pedidos do marketplace no VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "Como exporto o catálogo de produtos VTEX para Excel?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "product-indexing-01",
+      "query": "Como corrijo problemas de indexação de produtos no VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "pwa-implementation-01",
+      "query": "Quais são os passos para transformar meu site de ecommerce em um aplicativo web progressivo?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "refund-payment-01",
+      "query": "onde posso ver detalhes de reembolso em pagamentos vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "shopee-integration-01",
+      "query": "Como configuro o conector VTEX Shopee no Admin?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "store-order-not-created-01",
+      "query": "como corrigir erros de criação de pedidos no VTEX quando o inventário está sem estoque",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "conciliations-payment-01",
+      "query": "como gerenciar conciliações bancárias para pagamentos com boleto no vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "live-shopping-component-01",
+      "query": "Como adiciono um player de vídeo ao vivo à página inicial da minha loja VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "por que os meus pedidos do marketplace não aparecem no VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "Como posso obter uma lista de todos os meus produtos em Excel da minha loja VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "product-indexing-01",
+      "query": "Por que as atualizações dos meus produtos não aparecem quando os clientes pesquisam na minha loja VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.chatgpt",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "quais recursos omnichannel a VTEX oferece",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "bitcoin-payment-01",
+      "query": "how to enable payments with bitcoin in vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "budgets-api-01",
+      "query": "how to create budgets via vtex budgets api",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "checkout-api-orders-01",
+      "query": "how to format json payload for vtex checkout api put orders endpoint",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "customer-credit-01",
+      "query": "how to manage a customer credit account via vtex api",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "github-repository-migration-01",
+      "query": "How do I transfer repository ownership between GitHub organizations and what are the implications for access controls...",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "why don't marketplace orders integrate with my VTEX store",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "orders-api-changes-01",
+      "query": "how to get order changes via vtex orders api",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "orders-api-invoice-date-01",
+      "query": "how to query orders by invoice date using vtex orders api",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "pix-payment-01",
+      "query": "How do I configure a PIX payment provider in VTEX Admin?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "What's the way to export all product information to Excel in VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "sales-associates-salesapp-01",
+      "query": "How do I manage sales associates in VTEX Sales App?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "sap-catalog-01",
+      "query": "How do I integrate the catalog from SAP ERP to VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "shopee-integration-01",
+      "query": "How do I install and configure the Shopee connector for VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "store-order-not-created-01",
+      "query": "my VTEX store order was not created what should I check",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "expert",
+      "issue_id": "webops-github-connection-01",
+      "query": "How do I configure GitHub integration in VTEX WebOps to enable repository-based deployments?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "audit-search-01",
+      "query": "how does vtex handle audit trails and compliance",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "bitcoin-payment-01",
+      "query": "steps to configure bitcoin as a payment method in vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "budgets-api-01",
+      "query": "what api endpoint creates budgets in vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "checkout-api-orders-01",
+      "query": "what is the request body structure for updating orders in vtex checkout api",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "github-repository-migration-01",
+      "query": "What's the process for migrating a GitHub repository from one organization to another organization while keeping all ...",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "how to fix marketplace order integration errors in VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "orders-api-changes-01",
+      "query": "what api endpoint returns order modifications history in vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "orders-api-invoice-date-01",
+      "query": "what api endpoint lets me filter orders by invoice creation date in vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "pix-payment-01",
+      "query": "How do I set up PIX payment in my VTEX store?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "How do I export my VTEX product catalog to Excel?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "pwa-implementation-01",
+      "query": "What are the steps to turn my ecommerce website into a progressive web app?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "sales-associates-salesapp-01",
+      "query": "How do I add and manage sales associates in VTEX Sales App?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "sap-catalog-01",
+      "query": "How do I sync my SAP product catalog with VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "shopee-integration-01",
+      "query": "How do I set up the VTEX Shopee connector in Admin?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "familiar",
+      "issue_id": "store-order-not-created-01",
+      "query": "how to fix order creation errors in VTEX when inventory is out of stock",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "bitcoin-payment-01",
+      "query": "how do i set up bitcoin payments in my vtex store",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "budgets-api-01",
+      "query": "how do i create a budget using vtex api",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "checkout-api-orders-01",
+      "query": "what data format do i need to send when updating an order in vtex checkout api",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "cms-migration-01",
+      "query": "I need to upgrade my VTEX store to a new version. What happens to my live site and can I reverse it if needed?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "customer-credit-01",
+      "query": "how do i manage a customer credit account with vtex api",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "github-repository-migration-01",
+      "query": "I need to move my GitHub repository from one company's GitHub account to another company's account in VTEX. How can I...",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "live-shopping-component-01",
+      "query": "How do I add a live video player to my VTEX online store homepage?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "why aren't my marketplace orders showing up in VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "orders-api-changes-01",
+      "query": "how do i get the history of changes made to an order using vtex api",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "pix-payment-01",
+      "query": "How can I let customers pay with PIX in my VTEX store?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "How can I get a list of all my products in Excel from my VTEX store?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "product-indexing-01",
+      "query": "Why aren't my product updates appearing when customers search my VTEX store?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "sales-associates-salesapp-01",
+      "query": "How do I add my store employees to the VTEX Sales App so they can use it?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "sap-catalog-01",
+      "query": "How do I get my product catalog from SAP into my VTEX store?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "shopee-integration-01",
+      "query": "How can I sell on Shopee with my VTEX store?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "store-order-not-created-01",
+      "query": "why aren't orders being created in my VTEX store",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "what omnichannel features does VTEX offer",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "en",
+      "style": "naive",
+      "issue_id": "webstore-oauth2-01",
+      "query": "How do I let my VTEX store customers sign in with our existing user database?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "bitcoin-payment-01",
+      "query": "cómo habilitar pagos con bitcoin en vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "live-shopping-component-01",
+      "query": "¿Cómo coloco el componente Live Shopping en mi storefront VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "pix-payment-01",
+      "query": "¿Cómo configuro un proveedor de pago PIX en VTEX Admin?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "¿Cuál es la manera de exportar toda la información de productos a Excel en VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "sales-associates-salesapp-01",
+      "query": "¿Cómo gestiono vendedores en VTEX Sales App?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "settlement-payment-01",
+      "query": "cuáles son los tipos de liquidación de pagos en vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "shopee-integration-01",
+      "query": "¿Cómo instalo y configuro el conector Shopee para VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "expert",
+      "issue_id": "store-order-not-created-01",
+      "query": "el pedido de mi tienda VTEX no fue creado qué debo verificar",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "audit-search-01",
+      "query": "cómo maneja vtex los rastros de auditoría y el cumplimiento",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "bitcoin-payment-01",
+      "query": "pasos para configurar bitcoin como método de pago en vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "live-shopping-component-01",
+      "query": "¿Cómo agrego el componente Live Shopping a mi tienda VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "pix-payment-01",
+      "query": "¿Cómo configuro el pago PIX en mi tienda VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "¿Cómo exporto mi catálogo de productos VTEX a Excel?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "pwa-implementation-01",
+      "query": "¿Cuáles son los pasos para convertir mi sitio de ecommerce en una aplicación web progresiva?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "settlement-payment-01",
+      "query": "explique los tipos de liquidación de pagos en vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "familiar",
+      "issue_id": "shopee-integration-01",
+      "query": "¿Cómo configuro el conector VTEX Shopee en Admin?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "bitcoin-payment-01",
+      "query": "cómo configurar pagos con bitcoin en mi tienda vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "live-shopping-component-01",
+      "query": "¿Cómo agrego un reproductor de video en vivo a la página de inicio de mi tienda VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "por qué mis pedidos del marketplace no aparecen en VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "pix-payment-01",
+      "query": "¿Cómo puedo dejar que los clientes paguen con PIX en mi tienda VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "¿Cómo puedo obtener una lista de todos mis productos en Excel de mi tienda VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "product-indexing-01",
+      "query": "¿Por qué las actualizaciones de mis productos no aparecen cuando los clientes buscan en mi tienda VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "refund-payment-01",
+      "query": "cómo identifico cómo se realizó un reembolso de pago en vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "settlement-payment-01",
+      "query": "qué tipos de liquidación de pagos tiene vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "shopee-integration-01",
+      "query": "¿Cómo puedo vender en Shopee con mi tienda VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "es",
+      "style": "naive",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "qué características omnichannel ofrece VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "por que os pedidos do marketplace não integram com a minha loja VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "product-excel-01",
+      "query": "Qual é a forma de exportar todas as informações de produtos para Excel no VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "refund-payment-01",
+      "query": "como identificar reembolsos de pagamentos no vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "settlement-payment-01",
+      "query": "quais são os tipos de liquidação de pagamento no vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "store-order-not-created-01",
+      "query": "o pedido da minha loja VTEX não foi criado o que devo verificar",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "expert",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "como funciona o comércio unificado da VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "live-shopping-component-01",
+      "query": "Como adiciono o componente Live Shopping à minha loja VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "como corrigir erros de integração de pedidos do marketplace no VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "product-excel-01",
+      "query": "Como exporto o catálogo de produtos VTEX para Excel?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "settlement-payment-01",
+      "query": "explique os tipos de liquidação de pagamento no vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "shopee-integration-01",
+      "query": "Como configuro o conector VTEX Shopee no Admin?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "familiar",
+      "issue_id": "store-order-not-created-01",
+      "query": "como corrigir erros de criação de pedidos no VTEX quando o inventário está sem estoque",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "audit-search-01",
+      "query": "quais recursos de auditoria o vtex oferece",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "bitcoin-payment-01",
+      "query": "como configurar pagamentos com bitcoin na minha loja vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "conditions-payment-01",
+      "query": "como configurar condições especiais para métodos de pagamento no vtex",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "live-shopping-component-01",
+      "query": "Como adiciono um player de vídeo ao vivo à página inicial da minha loja VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "marketplace-orders-integration-01",
+      "query": "por que os meus pedidos do marketplace não aparecem no VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "product-excel-01",
+      "query": "Como posso obter uma lista de todos os meus produtos em Excel da minha loja VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "settlement-payment-01",
+      "query": "quais tipos de liquidação de pagamento o vtex tem",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "shopee-integration-01",
+      "query": "Como posso vender no Shopee com a minha loja VTEX?",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "store-order-not-created-01",
+      "query": "por que os pedidos não estão sendo criados na minha loja VTEX",
+      "link_source": "-"
+    },
+    {
+      "path": "llm.gemini",
+      "locale": "pt",
+      "style": "naive",
+      "issue_id": "unified-commerce-capabilities-01",
+      "query": "quais recursos omnichannel a VTEX oferece",
+      "link_source": "-"
+    }
+  ]
+}

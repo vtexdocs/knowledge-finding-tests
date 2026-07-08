@@ -1,0 +1,39 @@
+issue_id,source,locale,style,query,old_target_found,new_target_found,old_target_different_loc_found,new_target_different_loc_found,old_target_any_locale_found,new_target_any_locale_found,has_help_center,has_locale_query_param
+"bitcoin-payment-01","external-search.google-search-playwright","en","familiar","configure bitcoin payment method vtex",False,False,False,True,False,True,True,False
+"bitcoin-payment-01","external-search.google-search-playwright","en","expert","enabling payments with bitcoin vtex",False,False,False,True,False,True,True,False
+"cms-migration-01","internal-search.hybrid-search","en","familiar","Store Framework migration production rollback",True,False,False,False,True,False,False,False
+"cms-migration-01","internal-search.hybrid-search","en","expert","CMS Legacy Store Framework migration rollback",True,False,False,False,True,False,True,False
+"conciliations-payment-01","llm.chatgpt","en","naive","how do i manage bank reconciliations for bank slip payments in vtex",True,False,False,True,True,True,True,True
+"conciliations-payment-01","llm.chatgpt","en","familiar","steps to reconcile boleto payments in vtex",False,False,False,True,False,True,True,True
+"conciliations-payment-01","llm.chatgpt","es","naive","cómo gestionar conciliaciones bancarias para pagos con boleto en vtex",True,True,False,True,True,True,True,True
+"conciliations-payment-01","llm.chatgpt","es","expert","cómo gestionar conciliaciones bancarias en pagos vtex",True,True,False,True,True,True,True,True
+"conditions-payment-01","external-search.google-search-playwright","es","naive","cómo configurar condiciones especiales para métodos de pago en vtex",True,True,False,True,True,True,True,True
+"conditions-payment-01","external-search.google-search-playwright","es","familiar","configurar condiciones especiales de pago vtex",True,True,False,True,True,True,True,False
+"conditions-payment-01","external-search.google-search-playwright","pt","naive","como configurar condições especiais para métodos de pagamento no vtex",True,True,False,True,True,True,True,True
+"conditions-payment-01","external-search.google-search-playwright","pt","familiar","configurar condições especiais de pagamento vtex",False,False,False,True,False,True,True,False
+"conditions-payment-01","external-search.google-search-playwright","pt","expert","condições especiais vtex pagamentos",True,True,False,True,True,True,True,True
+"conditions-payment-01","llm.chatgpt","en","naive","how do i configure special conditions for payment methods in vtex",True,True,False,True,True,True,True,True
+"conditions-payment-01","llm.chatgpt","en","familiar","steps to set special conditions for vtex payment methods",True,True,False,True,True,True,True,True
+"conditions-payment-01","llm.chatgpt","en","expert","how to configure special conditions for payment methods in vtex",True,True,False,True,True,True,True,True
+"conditions-payment-01","llm.chatgpt","es","expert","cómo configurar condiciones especiales para métodos de pago en vtex",False,False,False,True,False,True,True,False
+"content-delivery-optimization-01","internal-search.hybrid-search","en","naive","content delivery optimization",True,False,False,False,True,False,False,False
+"content-delivery-optimization-01","internal-search.hybrid-search","en","familiar","CDN caching content delivery",True,False,False,False,True,False,True,False
+"content-delivery-optimization-01","internal-search.hybrid-search","en","expert","cloud infrastructure content delivery optimization",True,False,False,False,True,False,False,False
+"customer-credit-01","internal-search.hybrid-search","en","naive","customer credit api",True,False,False,False,True,False,True,False
+"customer-credit-01","internal-search.hybrid-search","en","familiar","manage customer credit account",True,False,False,False,True,False,True,False
+"customer-credit-01","internal-search.hybrid-search","en","expert","managing a customer credit account",True,False,False,False,True,False,True,False
+"payment-provider-01","internal-search.hybrid-search","en","naive","add payment provider vtex",True,False,False,False,True,False,True,False
+"payment-provider-01","internal-search.hybrid-search","en","familiar","payment provider integration",True,False,False,False,True,False,True,False
+"payment-provider-01","internal-search.hybrid-search","en","expert","integrating a new payment provider on vtex",True,False,False,False,True,False,True,False
+"payment-provider-02","internal-search.hybrid-search","en","familiar","payment provider implementation",True,False,False,False,True,False,True,False
+"payment-provider-02","internal-search.hybrid-search","en","expert","implementing a payment provider",True,False,False,False,True,False,True,False
+"product-indexing-01","llm.chatgpt","pt","naive","Por que as atualizações dos meus produtos não aparecem quando os clientes pesquisam na minha loja VTEX?",False,False,False,True,False,True,True,False
+"product-not-visible-01","llm.chatgpt","pt","familiar","Por que o meu produto VTEX não está aparecendo no site?",True,True,False,True,True,True,True,False
+"product-not-visible-01","llm.chatgpt","pt","expert","Por que o produto não está visível no site no VTEX?",False,False,False,True,False,True,True,False
+"pwa-implementation-01","llm.gemini","en","naive","I want my customers to be able to install my VTEX store website on their phones like an app. How do I do that?",False,False,False,True,False,True,True,False
+"sap-catalog-01","internal-search.hybrid-search","en","naive","product catalog business software online store",True,False,False,False,True,False,True,False
+"sap-catalog-01","internal-search.hybrid-search","en","expert","integrate catalog SAP ERP VTEX backend",True,False,False,False,True,False,True,False
+"support-work-01","external-search.google-search-playwright","pt","expert","planos de suporte VTEX sistema de tickets",True,True,False,True,True,True,True,False
+"webstore-oauth2-01","internal-search.hybrid-search","en","naive","custom login external identity",True,False,False,False,True,False,True,False
+"webstore-oauth2-01","internal-search.hybrid-search","en","familiar","OAuth webstore identity provider configure",True,False,False,False,True,False,True,False
+"webstore-oauth2-01","internal-search.hybrid-search","en","expert","login integration guide webstore OAuth2",True,False,False,False,True,False,True,False

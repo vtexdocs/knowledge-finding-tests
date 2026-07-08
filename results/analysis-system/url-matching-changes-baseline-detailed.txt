@@ -1,0 +1,1066 @@
+================================================================================
+BASELINE: analysis-system 2026-04-30 15-00
+Re-simulation with new Help Center URL matcher vs stored classification
+================================================================================
+
+1. cms-migration-01 | internal-search.hybrid-search | en/familiar
+   query: Store Framework migration production rollback
+   target_found: True -> False
+   target_different_loc_found: False -> False
+   target_any_locale_found: True -> False
+   catalog baseline (issue cms-migration-01, query locale=en, source=internal-search.hybrid-search):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/vtex-io-documentation-migrating-storefront-from-legacy-to-io
+     helpful (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/getting-started-with-storefront-solutions
+   test links reclassified:
+     [rank 2] test URL: https://developers.vtex.com/vtex-io-documentation-migrating-storefront-from-legacy-to-io
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/vtex-io-documentation-migrating-storefront-from-legacy-to-io)
+            catalog match (new):      (none)
+     [rank 2] test URL: https://developers.vtex.com/vtex-io-documentation-migrating-storefront-from-legacy-to-io
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/vtex-io-documentation-migrating-storefront-from-legacy-to-io)
+            catalog match (new):      (none)
+
+2. cms-migration-01 | internal-search.hybrid-search | en/expert
+   query: CMS Legacy Store Framework migration rollback
+   target_found: True -> False
+   target_different_loc_found: False -> False
+   target_any_locale_found: True -> False
+   catalog baseline (issue cms-migration-01, query locale=en, source=internal-search.hybrid-search):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/vtex-io-documentation-migrating-storefront-from-legacy-to-io
+     helpful (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/getting-started-with-storefront-solutions
+   test links reclassified:
+     [rank 3] test URL: https://developers.vtex.com/vtex-io-documentation-migrating-storefront-from-legacy-to-io
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/vtex-io-documentation-migrating-storefront-from-legacy-to-io)
+            catalog match (new):      (none)
+     [rank 3] test URL: https://developers.vtex.com/vtex-io-documentation-migrating-storefront-from-legacy-to-io
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/vtex-io-documentation-migrating-storefront-from-legacy-to-io)
+            catalog match (new):      (none)
+
+3. conciliations-payment-01 | llm.chatgpt | en/naive
+   query: how do i manage bank reconciliations for bank slip payments in vtex
+   target_found: True -> False
+   target_different_loc_found: False -> False
+   target_any_locale_found: True -> False
+   catalog baseline (issue conciliations-payment-01, query locale=en, source=llm.chatgpt):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://help.vtex.com/docs/tutorials/bank-reconciliations
+       - [en] https://help.vtex.com/en/docs/tutorials/bank-reconciliations
+     target (other locales):
+       - [pt] https://help.vtex.com/pt/tutorial/conciliacoes-bancarias
+       - [es] https://help.vtex.com/es/tutorial/conciliaciones-bancarias
+       - [pt] https://help.vtex.com/pt/docs/tutorials/conciliacoes-bancarias
+       - [es] https://help.vtex.com/es/docs/tutorials/conciliaciones-bancarias
+     helpful (same locale):
+       - [locale-less (bridged to query locale)] https://help.vtex.com/docs/tutorials/registered-ticket-flow
+       - [locale-less (bridged to query locale)] https://help.vtex.com/docs/tutorials/how-are-the-payments-made-through-bank-slips-approved
+       - [locale-less (bridged to query locale)] https://help.vtex.com/docs/tutorials/orders-overview
+       - [en] https://help.vtex.com/en/docs/tutorials/registered-ticket-flow
+       - [en] https://help.vtex.com/en/docs/tutorials/how-are-the-payments-made-through-bank-slips-approved
+       - [en] https://help.vtex.com/en/docs/tutorials/orders-overview
+     helpful (other locales):
+       - [pt] https://help.vtex.com/pt/docs/tutorials/boleto-bancario-registrado-fluxo-basico-de-um-pagamento
+       - [es] https://help.vtex.com/es/docs/tutorials/boleto-bancario-registrado-flujo
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-e-feita-a-aprovacao-de-pagamento-do-boleto
+       - [es] https://help.vtex.com/es/docs/tutorials/como-se-hace-la-aprobacion-de-pago-del-boleto
+       - [pt] https://help.vtex.com/pt/docs/tutorials/gerenciamento-de-pedidos-visao-geral
+       - [es] https://help.vtex.com/es/docs/tutorials/pedidos-vision-general
+   test links reclassified:
+     [rank 1] test URL: https://help.vtex.com/docs/tutorials/bank-reconciliations?locale=pt&utm_source=chatgpt.com
+            stored type -> new type: target_doc -> target_doc_different_loc
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://help.vtex.com/docs/tutorials/bank-reconciliations)
+            catalog match (new):      https://help.vtex.com/docs/tutorials/bank-reconciliations
+            catalog match (new, also):      https://help.vtex.com/en/docs/tutorials/bank-reconciliations
+
+4. conciliations-payment-01 | llm.chatgpt | en/familiar
+   query: steps to reconcile boleto payments in vtex
+   target_found: False -> False
+   target_different_loc_found: False -> True
+   target_any_locale_found: False -> True
+   catalog baseline (issue conciliations-payment-01, query locale=en, source=llm.chatgpt):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://help.vtex.com/docs/tutorials/bank-reconciliations
+       - [en] https://help.vtex.com/en/docs/tutorials/bank-reconciliations
+     target (other locales):
+       - [pt] https://help.vtex.com/pt/tutorial/conciliacoes-bancarias
+       - [es] https://help.vtex.com/es/tutorial/conciliaciones-bancarias
+       - [pt] https://help.vtex.com/pt/docs/tutorials/conciliacoes-bancarias
+       - [es] https://help.vtex.com/es/docs/tutorials/conciliaciones-bancarias
+     helpful (same locale):
+       - [locale-less (bridged to query locale)] https://help.vtex.com/docs/tutorials/registered-ticket-flow
+       - [locale-less (bridged to query locale)] https://help.vtex.com/docs/tutorials/how-are-the-payments-made-through-bank-slips-approved
+       - [locale-less (bridged to query locale)] https://help.vtex.com/docs/tutorials/orders-overview
+       - [en] https://help.vtex.com/en/docs/tutorials/registered-ticket-flow
+       - [en] https://help.vtex.com/en/docs/tutorials/how-are-the-payments-made-through-bank-slips-approved
+       - [en] https://help.vtex.com/en/docs/tutorials/orders-overview
+     helpful (other locales):
+       - [pt] https://help.vtex.com/pt/docs/tutorials/boleto-bancario-registrado-fluxo-basico-de-um-pagamento
+       - [es] https://help.vtex.com/es/docs/tutorials/boleto-bancario-registrado-flujo
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-e-feita-a-aprovacao-de-pagamento-do-boleto
+       - [es] https://help.vtex.com/es/docs/tutorials/como-se-hace-la-aprobacion-de-pago-del-boleto
+       - [pt] https://help.vtex.com/pt/docs/tutorials/gerenciamento-de-pedidos-visao-geral
+       - [es] https://help.vtex.com/es/docs/tutorials/pedidos-vision-general
+   test links reclassified:
+     [rank 1] test URL: https://help.vtex.com/pt/docs/tutorials/bank-reconciliations?utm_source=chatgpt.com
+            stored type -> new type: unrelated -> target_doc_different_loc
+            catalog match (stored): (none)
+            catalog match (new):      https://help.vtex.com/docs/tutorials/bank-reconciliations
+            catalog match (new, also):      https://help.vtex.com/en/docs/tutorials/bank-reconciliations
+     [rank 4] test URL: https://help.vtex.com/docs/tutorials/conciliacoes-bancarias?locale=pt&utm_source=chatgpt.com
+            stored type -> new type: unrelated -> target_doc_different_loc
+            catalog match (stored): (none)
+            catalog match (new):      https://help.vtex.com/pt/tutorial/conciliacoes-bancarias
+            catalog match (new, also):      https://help.vtex.com/pt/docs/tutorials/conciliacoes-bancarias
+
+5. conciliations-payment-01 | llm.chatgpt | es/naive
+   query: cómo gestionar conciliaciones bancarias para pagos con boleto en vtex
+   target_found: True -> True
+   target_different_loc_found: False -> True
+   target_any_locale_found: True -> True
+   catalog baseline (issue conciliations-payment-01, query locale=es, source=llm.chatgpt):
+     strict target (same locale):
+       - [es] https://help.vtex.com/es/tutorial/conciliaciones-bancarias
+       - [es] https://help.vtex.com/es/docs/tutorials/conciliaciones-bancarias
+     target (other locales):
+       - [pt] https://help.vtex.com/pt/tutorial/conciliacoes-bancarias
+       - [en] https://help.vtex.com/en/docs/tutorials/bank-reconciliations
+       - [pt] https://help.vtex.com/pt/docs/tutorials/conciliacoes-bancarias
+     helpful (same locale):
+       - [es] https://help.vtex.com/es/docs/tutorials/boleto-bancario-registrado-flujo
+       - [es] https://help.vtex.com/es/docs/tutorials/como-se-hace-la-aprobacion-de-pago-del-boleto
+       - [es] https://help.vtex.com/es/docs/tutorials/pedidos-vision-general
+     helpful (other locales):
+       - [pt] https://help.vtex.com/pt/docs/tutorials/boleto-bancario-registrado-fluxo-basico-de-um-pagamento
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-e-feita-a-aprovacao-de-pagamento-do-boleto
+       - [pt] https://help.vtex.com/pt/docs/tutorials/gerenciamento-de-pedidos-visao-geral
+       - [en] https://help.vtex.com/en/docs/tutorials/registered-ticket-flow
+       - [en] https://help.vtex.com/en/docs/tutorials/how-are-the-payments-made-through-bank-slips-approved
+       - [en] https://help.vtex.com/en/docs/tutorials/orders-overview
+   test links reclassified:
+     [rank 3] test URL: https://help.vtex.com/docs/tutorials/conciliacoes-bancarias?locale=pt
+            stored type -> new type: unrelated -> target_doc_different_loc
+            catalog match (stored): (none)
+            catalog match (new):      https://help.vtex.com/pt/tutorial/conciliacoes-bancarias
+            catalog match (new, also):      https://help.vtex.com/pt/docs/tutorials/conciliacoes-bancarias
+     [rank 8] test URL: https://help.vtex.com/docs/tutorials/conciliacoes-bancarias?locale=pt&utm_source=chatgpt.com
+            stored type -> new type: unrelated -> target_doc_different_loc
+            catalog match (stored): (none)
+            catalog match (new):      https://help.vtex.com/pt/tutorial/conciliacoes-bancarias
+            catalog match (new, also):      https://help.vtex.com/pt/docs/tutorials/conciliacoes-bancarias
+
+6. conciliations-payment-01 | llm.chatgpt | es/expert
+   query: cómo gestionar conciliaciones bancarias en pagos vtex
+   target_found: True -> True
+   target_different_loc_found: False -> True
+   target_any_locale_found: True -> True
+   catalog baseline (issue conciliations-payment-01, query locale=es, source=llm.chatgpt):
+     strict target (same locale):
+       - [es] https://help.vtex.com/es/tutorial/conciliaciones-bancarias
+       - [es] https://help.vtex.com/es/docs/tutorials/conciliaciones-bancarias
+     target (other locales):
+       - [pt] https://help.vtex.com/pt/tutorial/conciliacoes-bancarias
+       - [en] https://help.vtex.com/en/docs/tutorials/bank-reconciliations
+       - [pt] https://help.vtex.com/pt/docs/tutorials/conciliacoes-bancarias
+     helpful (same locale):
+       - [es] https://help.vtex.com/es/docs/tutorials/boleto-bancario-registrado-flujo
+       - [es] https://help.vtex.com/es/docs/tutorials/como-se-hace-la-aprobacion-de-pago-del-boleto
+       - [es] https://help.vtex.com/es/docs/tutorials/pedidos-vision-general
+     helpful (other locales):
+       - [pt] https://help.vtex.com/pt/docs/tutorials/boleto-bancario-registrado-fluxo-basico-de-um-pagamento
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-e-feita-a-aprovacao-de-pagamento-do-boleto
+       - [pt] https://help.vtex.com/pt/docs/tutorials/gerenciamento-de-pedidos-visao-geral
+       - [en] https://help.vtex.com/en/docs/tutorials/registered-ticket-flow
+       - [en] https://help.vtex.com/en/docs/tutorials/how-are-the-payments-made-through-bank-slips-approved
+       - [en] https://help.vtex.com/en/docs/tutorials/orders-overview
+   test links reclassified:
+     [rank 3] test URL: https://help.vtex.com/docs/tutorials/conciliacoes-bancarias?locale=pt&utm_source=chatgpt.com
+            stored type -> new type: unrelated -> target_doc_different_loc
+            catalog match (stored): (none)
+            catalog match (new):      https://help.vtex.com/pt/tutorial/conciliacoes-bancarias
+            catalog match (new, also):      https://help.vtex.com/pt/docs/tutorials/conciliacoes-bancarias
+
+7. conditions-payment-01 | external-search.google-search-playwright | es/naive
+   query: cómo configurar condiciones especiales para métodos de pago en vtex
+   target_found: True -> True
+   target_different_loc_found: False -> True
+   target_any_locale_found: True -> True
+   catalog baseline (issue conditions-payment-01, query locale=es, source=external-search.google-search-playwright):
+     strict target (same locale):
+       - [es] https://help.vtex.com/es/tutorial/condiciones-especiales
+       - [es] https://help.vtex.com/es/docs/tutorials/condiciones-especiales
+     target (other locales):
+       - [pt] https://help.vtex.com/pt/tutorial/condicoes-especiais
+       - [en] https://help.vtex.com/en/docs/tutorials/special-conditions
+       - [pt] https://help.vtex.com/pt/docs/tutorials/condicoes-especiais
+     helpful (same locale):
+       - [es] https://help.vtex.com/es/docs/tracks/configurar-una-condicion-de-pago
+       - [es] https://help.vtex.com/es/docs/tracks/modulos-de-vtex-ii#ajustes-opcionales-en-pagos
+       - [es] https://help.vtex.com/es/docs/tutorials/como-funciona-una-politica-comercial#pagos
+       - [es] https://help.vtex.com/es/docs/tutorials/configurar-politica-comercial-para-marketplace#pagos
+       - [es] https://help.vtex.com/es/docs/tutorials/que-es-el-banco-emisor
+       - [es] https://help.vtex.com/es/docs/tracks/modulos-de-vtex-ii
+       - [es] https://help.vtex.com/es/docs/tutorials/como-funciona-una-politica-comercial
+       - [es] https://help.vtex.com/es/docs/tutorials/configurar-politica-comercial-para-marketplace
+     helpful (other locales):
+       - [pt] https://help.vtex.com/pt/docs/tracks/configurar-uma-condicao-de-pagamento
+       - [pt] https://help.vtex.com/pt/docs/tracks/modulos-da-vtex-ii#configuracoes-opcionais-em-pagamentos
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-funciona-uma-politica-comercial#pagamentos
+       - [pt] https://help.vtex.com/pt/docs/tutorials/configurando-a-politica-comercial-para-marketplace#pagamentos
+       - [pt] https://help.vtex.com/pt/docs/tutorials/o-que-e-banco-emissor
+       - [en] https://help.vtex.com/en/docs/tracks/configuring-a-payment-condition
+       - [en] https://help.vtex.com/en/docs/tracks/vtex-modules-ii
+       - [pt] https://help.vtex.com/pt/docs/tracks/modulos-da-vtex-ii
+       - [en] https://help.vtex.com/en/docs/tutorials/how-trade-policies-work
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-funciona-uma-politica-comercial
+       - [en] https://help.vtex.com/en/docs/tutorials/configuring-a-marketplace-trade-policy
+       - [pt] https://help.vtex.com/pt/docs/tutorials/configurando-a-politica-comercial-para-marketplace
+       - [en] https://help.vtex.com/en/docs/tutorials/what-is-the-issuing-bank
+   test links reclassified:
+     [rank 6] test URL: https://help.vtex.com/docs/tutorials/condicoes-especiais?locale=en
+            stored type -> new type: unrelated -> target_doc_different_loc
+            catalog match (stored): (none)
+            catalog match (new):      https://help.vtex.com/pt/tutorial/condicoes-especiais
+            catalog match (new, also):      https://help.vtex.com/pt/docs/tutorials/condicoes-especiais
+
+8. conditions-payment-01 | external-search.google-search-playwright | es/familiar
+   query: configurar condiciones especiales de pago vtex
+   target_found: True -> True
+   target_different_loc_found: False -> True
+   target_any_locale_found: True -> True
+   catalog baseline (issue conditions-payment-01, query locale=es, source=external-search.google-search-playwright):
+     strict target (same locale):
+       - [es] https://help.vtex.com/es/tutorial/condiciones-especiales
+       - [es] https://help.vtex.com/es/docs/tutorials/condiciones-especiales
+     target (other locales):
+       - [pt] https://help.vtex.com/pt/tutorial/condicoes-especiais
+       - [en] https://help.vtex.com/en/docs/tutorials/special-conditions
+       - [pt] https://help.vtex.com/pt/docs/tutorials/condicoes-especiais
+     helpful (same locale):
+       - [es] https://help.vtex.com/es/docs/tracks/configurar-una-condicion-de-pago
+       - [es] https://help.vtex.com/es/docs/tracks/modulos-de-vtex-ii#ajustes-opcionales-en-pagos
+       - [es] https://help.vtex.com/es/docs/tutorials/como-funciona-una-politica-comercial#pagos
+       - [es] https://help.vtex.com/es/docs/tutorials/configurar-politica-comercial-para-marketplace#pagos
+       - [es] https://help.vtex.com/es/docs/tutorials/que-es-el-banco-emisor
+       - [es] https://help.vtex.com/es/docs/tracks/modulos-de-vtex-ii
+       - [es] https://help.vtex.com/es/docs/tutorials/como-funciona-una-politica-comercial
+       - [es] https://help.vtex.com/es/docs/tutorials/configurar-politica-comercial-para-marketplace
+     helpful (other locales):
+       - [pt] https://help.vtex.com/pt/docs/tracks/configurar-uma-condicao-de-pagamento
+       - [pt] https://help.vtex.com/pt/docs/tracks/modulos-da-vtex-ii#configuracoes-opcionais-em-pagamentos
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-funciona-uma-politica-comercial#pagamentos
+       - [pt] https://help.vtex.com/pt/docs/tutorials/configurando-a-politica-comercial-para-marketplace#pagamentos
+       - [pt] https://help.vtex.com/pt/docs/tutorials/o-que-e-banco-emissor
+       - [en] https://help.vtex.com/en/docs/tracks/configuring-a-payment-condition
+       - [en] https://help.vtex.com/en/docs/tracks/vtex-modules-ii
+       - [pt] https://help.vtex.com/pt/docs/tracks/modulos-da-vtex-ii
+       - [en] https://help.vtex.com/en/docs/tutorials/how-trade-policies-work
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-funciona-uma-politica-comercial
+       - [en] https://help.vtex.com/en/docs/tutorials/configuring-a-marketplace-trade-policy
+       - [pt] https://help.vtex.com/pt/docs/tutorials/configurando-a-politica-comercial-para-marketplace
+       - [en] https://help.vtex.com/en/docs/tutorials/what-is-the-issuing-bank
+   test links reclassified:
+     [rank 4] test URL: https://help.vtex.com/en/tutorial/condicoes-especiais
+            stored type -> new type: unrelated -> target_doc_different_loc
+            catalog match (stored): (none)
+            catalog match (new):      https://help.vtex.com/pt/tutorial/condicoes-especiais
+            catalog match (new, also):      https://help.vtex.com/pt/docs/tutorials/condicoes-especiais
+
+9. conditions-payment-01 | external-search.google-search-playwright | pt/naive
+   query: como configurar condições especiais para métodos de pagamento no vtex
+   target_found: True -> True
+   target_different_loc_found: False -> True
+   target_any_locale_found: True -> True
+   catalog baseline (issue conditions-payment-01, query locale=pt, source=external-search.google-search-playwright):
+     strict target (same locale):
+       - [pt] https://help.vtex.com/pt/tutorial/condicoes-especiais
+       - [pt] https://help.vtex.com/pt/docs/tutorials/condicoes-especiais
+     target (other locales):
+       - [es] https://help.vtex.com/es/tutorial/condiciones-especiales
+       - [en] https://help.vtex.com/en/docs/tutorials/special-conditions
+       - [es] https://help.vtex.com/es/docs/tutorials/condiciones-especiales
+     helpful (same locale):
+       - [pt] https://help.vtex.com/pt/docs/tracks/configurar-uma-condicao-de-pagamento
+       - [pt] https://help.vtex.com/pt/docs/tracks/modulos-da-vtex-ii#configuracoes-opcionais-em-pagamentos
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-funciona-uma-politica-comercial#pagamentos
+       - [pt] https://help.vtex.com/pt/docs/tutorials/configurando-a-politica-comercial-para-marketplace#pagamentos
+       - [pt] https://help.vtex.com/pt/docs/tutorials/o-que-e-banco-emissor
+       - [pt] https://help.vtex.com/pt/docs/tracks/modulos-da-vtex-ii
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-funciona-uma-politica-comercial
+       - [pt] https://help.vtex.com/pt/docs/tutorials/configurando-a-politica-comercial-para-marketplace
+     helpful (other locales):
+       - [es] https://help.vtex.com/es/docs/tracks/configurar-una-condicion-de-pago
+       - [es] https://help.vtex.com/es/docs/tracks/modulos-de-vtex-ii#ajustes-opcionales-en-pagos
+       - [es] https://help.vtex.com/es/docs/tutorials/como-funciona-una-politica-comercial#pagos
+       - [es] https://help.vtex.com/es/docs/tutorials/configurar-politica-comercial-para-marketplace#pagos
+       - [es] https://help.vtex.com/es/docs/tutorials/que-es-el-banco-emisor
+       - [en] https://help.vtex.com/en/docs/tracks/configuring-a-payment-condition
+       - [en] https://help.vtex.com/en/docs/tracks/vtex-modules-ii
+       - [es] https://help.vtex.com/es/docs/tracks/modulos-de-vtex-ii
+       - [en] https://help.vtex.com/en/docs/tutorials/how-trade-policies-work
+       - [es] https://help.vtex.com/es/docs/tutorials/como-funciona-una-politica-comercial
+       - [en] https://help.vtex.com/en/docs/tutorials/configuring-a-marketplace-trade-policy
+       - [es] https://help.vtex.com/es/docs/tutorials/configurar-politica-comercial-para-marketplace
+       - [en] https://help.vtex.com/en/docs/tutorials/what-is-the-issuing-bank
+   test links reclassified:
+     [rank 4] test URL: https://help.vtex.com/docs/tutorials/condicoes-especiais?locale=en
+            stored type -> new type: target_doc -> target_doc_different_loc
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://help.vtex.com/pt/tutorial/condicoes-especiais)
+            catalog match (new):      https://help.vtex.com/pt/tutorial/condicoes-especiais
+            catalog match (new, also):      https://help.vtex.com/pt/docs/tutorials/condicoes-especiais
+
+10. conditions-payment-01 | external-search.google-search-playwright | pt/familiar
+   query: configurar condições especiais de pagamento vtex
+   target_found: False -> False
+   target_different_loc_found: False -> True
+   target_any_locale_found: False -> True
+   catalog baseline (issue conditions-payment-01, query locale=pt, source=external-search.google-search-playwright):
+     strict target (same locale):
+       - [pt] https://help.vtex.com/pt/tutorial/condicoes-especiais
+       - [pt] https://help.vtex.com/pt/docs/tutorials/condicoes-especiais
+     target (other locales):
+       - [es] https://help.vtex.com/es/tutorial/condiciones-especiales
+       - [en] https://help.vtex.com/en/docs/tutorials/special-conditions
+       - [es] https://help.vtex.com/es/docs/tutorials/condiciones-especiales
+     helpful (same locale):
+       - [pt] https://help.vtex.com/pt/docs/tracks/configurar-uma-condicao-de-pagamento
+       - [pt] https://help.vtex.com/pt/docs/tracks/modulos-da-vtex-ii#configuracoes-opcionais-em-pagamentos
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-funciona-uma-politica-comercial#pagamentos
+       - [pt] https://help.vtex.com/pt/docs/tutorials/configurando-a-politica-comercial-para-marketplace#pagamentos
+       - [pt] https://help.vtex.com/pt/docs/tutorials/o-que-e-banco-emissor
+       - [pt] https://help.vtex.com/pt/docs/tracks/modulos-da-vtex-ii
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-funciona-uma-politica-comercial
+       - [pt] https://help.vtex.com/pt/docs/tutorials/configurando-a-politica-comercial-para-marketplace
+     helpful (other locales):
+       - [es] https://help.vtex.com/es/docs/tracks/configurar-una-condicion-de-pago
+       - [es] https://help.vtex.com/es/docs/tracks/modulos-de-vtex-ii#ajustes-opcionales-en-pagos
+       - [es] https://help.vtex.com/es/docs/tutorials/como-funciona-una-politica-comercial#pagos
+       - [es] https://help.vtex.com/es/docs/tutorials/configurar-politica-comercial-para-marketplace#pagos
+       - [es] https://help.vtex.com/es/docs/tutorials/que-es-el-banco-emisor
+       - [en] https://help.vtex.com/en/docs/tracks/configuring-a-payment-condition
+       - [en] https://help.vtex.com/en/docs/tracks/vtex-modules-ii
+       - [es] https://help.vtex.com/es/docs/tracks/modulos-de-vtex-ii
+       - [en] https://help.vtex.com/en/docs/tutorials/how-trade-policies-work
+       - [es] https://help.vtex.com/es/docs/tutorials/como-funciona-una-politica-comercial
+       - [en] https://help.vtex.com/en/docs/tutorials/configuring-a-marketplace-trade-policy
+       - [es] https://help.vtex.com/es/docs/tutorials/configurar-politica-comercial-para-marketplace
+       - [en] https://help.vtex.com/en/docs/tutorials/what-is-the-issuing-bank
+   test links reclassified:
+     [rank 1] test URL: https://help.vtex.com/en/tutorial/condicoes-especiais
+            stored type -> new type: unrelated -> target_doc_different_loc
+            catalog match (stored): (none)
+            catalog match (new):      https://help.vtex.com/pt/tutorial/condicoes-especiais
+            catalog match (new, also):      https://help.vtex.com/pt/docs/tutorials/condicoes-especiais
+
+11. conditions-payment-01 | external-search.google-search-playwright | pt/expert
+   query: condições especiais vtex pagamentos
+   target_found: True -> True
+   target_different_loc_found: False -> True
+   target_any_locale_found: True -> True
+   catalog baseline (issue conditions-payment-01, query locale=pt, source=external-search.google-search-playwright):
+     strict target (same locale):
+       - [pt] https://help.vtex.com/pt/tutorial/condicoes-especiais
+       - [pt] https://help.vtex.com/pt/docs/tutorials/condicoes-especiais
+     target (other locales):
+       - [es] https://help.vtex.com/es/tutorial/condiciones-especiales
+       - [en] https://help.vtex.com/en/docs/tutorials/special-conditions
+       - [es] https://help.vtex.com/es/docs/tutorials/condiciones-especiales
+     helpful (same locale):
+       - [pt] https://help.vtex.com/pt/docs/tracks/configurar-uma-condicao-de-pagamento
+       - [pt] https://help.vtex.com/pt/docs/tracks/modulos-da-vtex-ii#configuracoes-opcionais-em-pagamentos
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-funciona-uma-politica-comercial#pagamentos
+       - [pt] https://help.vtex.com/pt/docs/tutorials/configurando-a-politica-comercial-para-marketplace#pagamentos
+       - [pt] https://help.vtex.com/pt/docs/tutorials/o-que-e-banco-emissor
+       - [pt] https://help.vtex.com/pt/docs/tracks/modulos-da-vtex-ii
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-funciona-uma-politica-comercial
+       - [pt] https://help.vtex.com/pt/docs/tutorials/configurando-a-politica-comercial-para-marketplace
+     helpful (other locales):
+       - [es] https://help.vtex.com/es/docs/tracks/configurar-una-condicion-de-pago
+       - [es] https://help.vtex.com/es/docs/tracks/modulos-de-vtex-ii#ajustes-opcionales-en-pagos
+       - [es] https://help.vtex.com/es/docs/tutorials/como-funciona-una-politica-comercial#pagos
+       - [es] https://help.vtex.com/es/docs/tutorials/configurar-politica-comercial-para-marketplace#pagos
+       - [es] https://help.vtex.com/es/docs/tutorials/que-es-el-banco-emisor
+       - [en] https://help.vtex.com/en/docs/tracks/configuring-a-payment-condition
+       - [en] https://help.vtex.com/en/docs/tracks/vtex-modules-ii
+       - [es] https://help.vtex.com/es/docs/tracks/modulos-de-vtex-ii
+       - [en] https://help.vtex.com/en/docs/tutorials/how-trade-policies-work
+       - [es] https://help.vtex.com/es/docs/tutorials/como-funciona-una-politica-comercial
+       - [en] https://help.vtex.com/en/docs/tutorials/configuring-a-marketplace-trade-policy
+       - [es] https://help.vtex.com/es/docs/tutorials/configurar-politica-comercial-para-marketplace
+       - [en] https://help.vtex.com/en/docs/tutorials/what-is-the-issuing-bank
+   test links reclassified:
+     [rank 2] test URL: https://help.vtex.com/docs/tutorials/condicoes-especiais?locale=en
+            stored type -> new type: target_doc -> target_doc_different_loc
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://help.vtex.com/pt/tutorial/condicoes-especiais)
+            catalog match (new):      https://help.vtex.com/pt/tutorial/condicoes-especiais
+            catalog match (new, also):      https://help.vtex.com/pt/docs/tutorials/condicoes-especiais
+
+12. conditions-payment-01 | llm.chatgpt | es/expert
+   query: cómo configurar condiciones especiales para métodos de pago en vtex
+   target_found: False -> False
+   target_different_loc_found: False -> True
+   target_any_locale_found: False -> True
+   catalog baseline (issue conditions-payment-01, query locale=es, source=llm.chatgpt):
+     strict target (same locale):
+       - [es] https://help.vtex.com/es/tutorial/condiciones-especiales
+       - [es] https://help.vtex.com/es/docs/tutorials/condiciones-especiales
+     target (other locales):
+       - [pt] https://help.vtex.com/pt/tutorial/condicoes-especiais
+       - [en] https://help.vtex.com/en/docs/tutorials/special-conditions
+       - [pt] https://help.vtex.com/pt/docs/tutorials/condicoes-especiais
+     helpful (same locale):
+       - [es] https://help.vtex.com/es/docs/tracks/configurar-una-condicion-de-pago
+       - [es] https://help.vtex.com/es/docs/tracks/modulos-de-vtex-ii#ajustes-opcionales-en-pagos
+       - [es] https://help.vtex.com/es/docs/tutorials/como-funciona-una-politica-comercial#pagos
+       - [es] https://help.vtex.com/es/docs/tutorials/configurar-politica-comercial-para-marketplace#pagos
+       - [es] https://help.vtex.com/es/docs/tutorials/que-es-el-banco-emisor
+       - [es] https://help.vtex.com/es/docs/tracks/modulos-de-vtex-ii
+       - [es] https://help.vtex.com/es/docs/tutorials/como-funciona-una-politica-comercial
+       - [es] https://help.vtex.com/es/docs/tutorials/configurar-politica-comercial-para-marketplace
+     helpful (other locales):
+       - [pt] https://help.vtex.com/pt/docs/tracks/configurar-uma-condicao-de-pagamento
+       - [pt] https://help.vtex.com/pt/docs/tracks/modulos-da-vtex-ii#configuracoes-opcionais-em-pagamentos
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-funciona-uma-politica-comercial#pagamentos
+       - [pt] https://help.vtex.com/pt/docs/tutorials/configurando-a-politica-comercial-para-marketplace#pagamentos
+       - [pt] https://help.vtex.com/pt/docs/tutorials/o-que-e-banco-emissor
+       - [en] https://help.vtex.com/en/docs/tracks/configuring-a-payment-condition
+       - [en] https://help.vtex.com/en/docs/tracks/vtex-modules-ii
+       - [pt] https://help.vtex.com/pt/docs/tracks/modulos-da-vtex-ii
+       - [en] https://help.vtex.com/en/docs/tutorials/how-trade-policies-work
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-funciona-uma-politica-comercial
+       - [en] https://help.vtex.com/en/docs/tutorials/configuring-a-marketplace-trade-policy
+       - [pt] https://help.vtex.com/pt/docs/tutorials/configurando-a-politica-comercial-para-marketplace
+       - [en] https://help.vtex.com/en/docs/tutorials/what-is-the-issuing-bank
+   test links reclassified:
+     [rank 2] test URL: https://help.vtex.com/en/docs/tutorials/condiciones-especiales?utm_source=chatgpt.com
+            stored type -> new type: unrelated -> target_doc_different_loc
+            catalog match (stored): (none)
+            catalog match (new):      https://help.vtex.com/es/tutorial/condiciones-especiales
+            catalog match (new, also):      https://help.vtex.com/es/docs/tutorials/condiciones-especiales
+
+13. content-delivery-optimization-01 | internal-search.hybrid-search | en/naive
+   query: content delivery optimization
+   target_found: True -> False
+   target_different_loc_found: False -> False
+   target_any_locale_found: True -> False
+   catalog baseline (issue content-delivery-optimization-01, query locale=en, source=internal-search.hybrid-search):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/cloud-infrastructure
+     helpful (same locale):
+       - [en] https://help.vtex.com/en/docs/tutorials/how-dns-configuration-works-on-vtex
+     helpful (other locales):
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-funciona-a-configuracao-de-dns-na-vtex
+       - [es] https://help.vtex.com/es/docs/tutorials/como-funciona-la-configuracion-de-dns-en-vtex
+   test links reclassified:
+     [rank 1] test URL: https://developers.vtex.com/cloud-infrastructure
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/cloud-infrastructure)
+            catalog match (new):      (none)
+
+14. content-delivery-optimization-01 | internal-search.hybrid-search | en/familiar
+   query: CDN caching content delivery
+   target_found: True -> False
+   target_different_loc_found: False -> False
+   target_any_locale_found: True -> False
+   catalog baseline (issue content-delivery-optimization-01, query locale=en, source=internal-search.hybrid-search):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/cloud-infrastructure
+     helpful (same locale):
+       - [en] https://help.vtex.com/en/docs/tutorials/how-dns-configuration-works-on-vtex
+     helpful (other locales):
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-funciona-a-configuracao-de-dns-na-vtex
+       - [es] https://help.vtex.com/es/docs/tutorials/como-funciona-la-configuracion-de-dns-en-vtex
+   test links reclassified:
+     [rank 3] test URL: https://developers.vtex.com/cloud-infrastructure
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/cloud-infrastructure)
+            catalog match (new):      (none)
+     [rank 3] test URL: https://developers.vtex.com/cloud-infrastructure
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/cloud-infrastructure)
+            catalog match (new):      (none)
+     [rank 3] test URL: https://developers.vtex.com/cloud-infrastructure
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/cloud-infrastructure)
+            catalog match (new):      (none)
+
+15. content-delivery-optimization-01 | internal-search.hybrid-search | en/expert
+   query: cloud infrastructure content delivery optimization
+   target_found: True -> False
+   target_different_loc_found: False -> False
+   target_any_locale_found: True -> False
+   catalog baseline (issue content-delivery-optimization-01, query locale=en, source=internal-search.hybrid-search):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/cloud-infrastructure
+     helpful (same locale):
+       - [en] https://help.vtex.com/en/docs/tutorials/how-dns-configuration-works-on-vtex
+     helpful (other locales):
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-funciona-a-configuracao-de-dns-na-vtex
+       - [es] https://help.vtex.com/es/docs/tutorials/como-funciona-la-configuracion-de-dns-en-vtex
+   test links reclassified:
+     [rank 6] test URL: https://developers.vtex.com/cloud-infrastructure
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/cloud-infrastructure)
+            catalog match (new):      (none)
+     [rank 6] test URL: https://developers.vtex.com/cloud-infrastructure
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/cloud-infrastructure)
+            catalog match (new):      (none)
+     [rank 6] test URL: https://developers.vtex.com/cloud-infrastructure
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/cloud-infrastructure)
+            catalog match (new):      (none)
+     [rank 6] test URL: https://developers.vtex.com/cloud-infrastructure
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/cloud-infrastructure)
+            catalog match (new):      (none)
+
+16. customer-credit-01 | internal-search.hybrid-search | en/naive
+   query: customer credit api
+   target_found: True -> False
+   target_different_loc_found: False -> False
+   target_any_locale_found: True -> False
+   catalog baseline (issue customer-credit-01, query locale=en, source=internal-search.hybrid-search):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/managing-a-customer-credit-account
+     helpful (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/customer-credit-integration-guide
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/managing-a-customer-credit-invoice
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/managing-a-customer-credit-account
+       - [locale-less (bridged to query locale)] https://help.vtex.com/docs/tutorials/customer-credit-overview
+       - [locale-less (bridged to query locale)] https://help.vtex.com/docs/tracks/creating-accounts#create-account-via-api
+       - [en] https://help.vtex.com/en/docs/tutorials/customer-credit-overview
+       - [en] https://help.vtex.com/en/docs/tracks/creating-accounts
+     helpful (other locales):
+       - [pt] https://help.vtex.com/pt/docs/tutorials/customer-credit-visao-geral
+       - [es] https://help.vtex.com/es/docs/tutorials/customer-credit-vision-general
+       - [pt] https://help.vtex.com/pt/docs/tracks/criando-contas#criar-conta-via-api
+       - [es] https://help.vtex.com/es/docs/tracks/creando-cuentas#crear-cuenta-a-traves-de-api
+       - [pt] https://help.vtex.com/pt/docs/tracks/criando-contas
+       - [es] https://help.vtex.com/es/docs/tracks/creando-cuentas
+   test links reclassified:
+     [rank 3] test URL: https://developers.vtex.com/customer-credit-integration-guide
+            stored type -> new type: other_helpful_doc -> unrelated
+            catalog match (stored): (unresolved — stored as other_helpful_doc; strict baseline: https://developers.vtex.com/docs/guides/customer-credit-integration-guide)
+            catalog match (new):      (none)
+     [rank 3] test URL: https://developers.vtex.com/customer-credit-integration-guide
+            stored type -> new type: other_helpful_doc -> unrelated
+            catalog match (stored): (unresolved — stored as other_helpful_doc; strict baseline: https://developers.vtex.com/docs/guides/customer-credit-integration-guide)
+            catalog match (new):      (none)
+     [rank 8] test URL: https://developers.vtex.com/managing-a-customer-credit-invoice
+            stored type -> new type: other_helpful_doc -> unrelated
+            catalog match (stored): (unresolved — stored as other_helpful_doc; strict baseline: https://developers.vtex.com/docs/guides/customer-credit-integration-guide)
+            catalog match (new):      (none)
+     [rank 9] test URL: https://developers.vtex.com/managing-a-customer-credit-account
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/managing-a-customer-credit-account)
+            catalog match (new):      (none)
+     [rank 9] test URL: https://developers.vtex.com/managing-a-customer-credit-account
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/managing-a-customer-credit-account)
+            catalog match (new):      (none)
+
+17. customer-credit-01 | internal-search.hybrid-search | en/familiar
+   query: manage customer credit account
+   target_found: True -> False
+   target_different_loc_found: False -> False
+   target_any_locale_found: True -> False
+   catalog baseline (issue customer-credit-01, query locale=en, source=internal-search.hybrid-search):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/managing-a-customer-credit-account
+     helpful (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/customer-credit-integration-guide
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/managing-a-customer-credit-invoice
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/managing-a-customer-credit-account
+       - [locale-less (bridged to query locale)] https://help.vtex.com/docs/tutorials/customer-credit-overview
+       - [locale-less (bridged to query locale)] https://help.vtex.com/docs/tracks/creating-accounts#create-account-via-api
+       - [en] https://help.vtex.com/en/docs/tutorials/customer-credit-overview
+       - [en] https://help.vtex.com/en/docs/tracks/creating-accounts
+     helpful (other locales):
+       - [pt] https://help.vtex.com/pt/docs/tutorials/customer-credit-visao-geral
+       - [es] https://help.vtex.com/es/docs/tutorials/customer-credit-vision-general
+       - [pt] https://help.vtex.com/pt/docs/tracks/criando-contas#criar-conta-via-api
+       - [es] https://help.vtex.com/es/docs/tracks/creando-cuentas#crear-cuenta-a-traves-de-api
+       - [pt] https://help.vtex.com/pt/docs/tracks/criando-contas
+       - [es] https://help.vtex.com/es/docs/tracks/creando-cuentas
+   test links reclassified:
+     [rank 5] test URL: https://developers.vtex.com/customer-credit-integration-guide
+            stored type -> new type: other_helpful_doc -> unrelated
+            catalog match (stored): (unresolved — stored as other_helpful_doc; strict baseline: https://developers.vtex.com/docs/guides/customer-credit-integration-guide)
+            catalog match (new):      (none)
+     [rank 5] test URL: https://developers.vtex.com/customer-credit-integration-guide
+            stored type -> new type: other_helpful_doc -> unrelated
+            catalog match (stored): (unresolved — stored as other_helpful_doc; strict baseline: https://developers.vtex.com/docs/guides/customer-credit-integration-guide)
+            catalog match (new):      (none)
+     [rank 10] test URL: https://developers.vtex.com/managing-a-customer-credit-account
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/managing-a-customer-credit-account)
+            catalog match (new):      (none)
+     [rank 10] test URL: https://developers.vtex.com/managing-a-customer-credit-account
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/managing-a-customer-credit-account)
+            catalog match (new):      (none)
+     [rank 10] test URL: https://developers.vtex.com/managing-a-customer-credit-account
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/managing-a-customer-credit-account)
+            catalog match (new):      (none)
+     [rank 10] test URL: https://developers.vtex.com/managing-a-customer-credit-account
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/managing-a-customer-credit-account)
+            catalog match (new):      (none)
+
+18. customer-credit-01 | internal-search.hybrid-search | en/expert
+   query: managing a customer credit account
+   target_found: True -> False
+   target_different_loc_found: False -> False
+   target_any_locale_found: True -> False
+   catalog baseline (issue customer-credit-01, query locale=en, source=internal-search.hybrid-search):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/managing-a-customer-credit-account
+     helpful (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/customer-credit-integration-guide
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/managing-a-customer-credit-invoice
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/managing-a-customer-credit-account
+       - [locale-less (bridged to query locale)] https://help.vtex.com/docs/tutorials/customer-credit-overview
+       - [locale-less (bridged to query locale)] https://help.vtex.com/docs/tracks/creating-accounts#create-account-via-api
+       - [en] https://help.vtex.com/en/docs/tutorials/customer-credit-overview
+       - [en] https://help.vtex.com/en/docs/tracks/creating-accounts
+     helpful (other locales):
+       - [pt] https://help.vtex.com/pt/docs/tutorials/customer-credit-visao-geral
+       - [es] https://help.vtex.com/es/docs/tutorials/customer-credit-vision-general
+       - [pt] https://help.vtex.com/pt/docs/tracks/criando-contas#criar-conta-via-api
+       - [es] https://help.vtex.com/es/docs/tracks/creando-cuentas#crear-cuenta-a-traves-de-api
+       - [pt] https://help.vtex.com/pt/docs/tracks/criando-contas
+       - [es] https://help.vtex.com/es/docs/tracks/creando-cuentas
+   test links reclassified:
+     [rank 4] test URL: https://developers.vtex.com/customer-credit-integration-guide
+            stored type -> new type: other_helpful_doc -> unrelated
+            catalog match (stored): (unresolved — stored as other_helpful_doc; strict baseline: https://developers.vtex.com/docs/guides/customer-credit-integration-guide)
+            catalog match (new):      (none)
+     [rank 4] test URL: https://developers.vtex.com/customer-credit-integration-guide
+            stored type -> new type: other_helpful_doc -> unrelated
+            catalog match (stored): (unresolved — stored as other_helpful_doc; strict baseline: https://developers.vtex.com/docs/guides/customer-credit-integration-guide)
+            catalog match (new):      (none)
+     [rank 10] test URL: https://developers.vtex.com/managing-a-customer-credit-account
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/managing-a-customer-credit-account)
+            catalog match (new):      (none)
+     [rank 10] test URL: https://developers.vtex.com/managing-a-customer-credit-account
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/managing-a-customer-credit-account)
+            catalog match (new):      (none)
+     [rank 10] test URL: https://developers.vtex.com/managing-a-customer-credit-account
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/managing-a-customer-credit-account)
+            catalog match (new):      (none)
+     [rank 10] test URL: https://developers.vtex.com/managing-a-customer-credit-account
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/managing-a-customer-credit-account)
+            catalog match (new):      (none)
+
+19. payment-provider-01 | internal-search.hybrid-search | en/naive
+   query: add payment provider vtex
+   target_found: True -> False
+   target_different_loc_found: False -> False
+   target_any_locale_found: True -> False
+   catalog baseline (issue payment-provider-01, query locale=en, source=internal-search.hybrid-search):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/integrating-a-new-payment-provider-on-vtex
+     helpful (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/payments-overview
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/payments-integration-payment-provider-framework
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/payments-integration-guide
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/vtex-composable-components
+   test links reclassified:
+     [rank 3] test URL: https://developers.vtex.com/payments-integration-payment-provider-framework
+            stored type -> new type: other_helpful_doc -> unrelated
+            catalog match (stored): (unresolved — stored as other_helpful_doc; strict baseline: https://developers.vtex.com/docs/guides/payments-overview)
+            catalog match (new):      (none)
+     [rank 5] test URL: https://developers.vtex.com/integrating-a-new-payment-provider-on-vtex
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/integrating-a-new-payment-provider-on-vtex)
+            catalog match (new):      (none)
+
+20. payment-provider-01 | internal-search.hybrid-search | en/familiar
+   query: payment provider integration
+   target_found: True -> False
+   target_different_loc_found: False -> False
+   target_any_locale_found: True -> False
+   catalog baseline (issue payment-provider-01, query locale=en, source=internal-search.hybrid-search):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/integrating-a-new-payment-provider-on-vtex
+     helpful (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/payments-overview
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/payments-integration-payment-provider-framework
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/payments-integration-guide
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/vtex-composable-components
+   test links reclassified:
+     [rank 1] test URL: https://developers.vtex.com/payments-overview
+            stored type -> new type: other_helpful_doc -> unrelated
+            catalog match (stored): (unresolved — stored as other_helpful_doc; strict baseline: https://developers.vtex.com/docs/guides/payments-overview)
+            catalog match (new):      (none)
+     [rank 5] test URL: https://developers.vtex.com/payments-integration-guide
+            stored type -> new type: other_helpful_doc -> unrelated
+            catalog match (stored): (unresolved — stored as other_helpful_doc; strict baseline: https://developers.vtex.com/docs/guides/payments-overview)
+            catalog match (new):      (none)
+     [rank 9] test URL: https://developers.vtex.com/integrating-a-new-payment-provider-on-vtex
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/integrating-a-new-payment-provider-on-vtex)
+            catalog match (new):      (none)
+     [rank 9] test URL: https://developers.vtex.com/integrating-a-new-payment-provider-on-vtex
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/integrating-a-new-payment-provider-on-vtex)
+            catalog match (new):      (none)
+     [rank 9] test URL: https://developers.vtex.com/integrating-a-new-payment-provider-on-vtex
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/integrating-a-new-payment-provider-on-vtex)
+            catalog match (new):      (none)
+     [rank 10] test URL: https://developers.vtex.com/vtex-composable-components
+            stored type -> new type: other_helpful_doc -> unrelated
+            catalog match (stored): (unresolved — stored as other_helpful_doc; strict baseline: https://developers.vtex.com/docs/guides/payments-overview)
+            catalog match (new):      (none)
+
+21. payment-provider-01 | internal-search.hybrid-search | en/expert
+   query: integrating a new payment provider on vtex
+   target_found: True -> False
+   target_different_loc_found: False -> False
+   target_any_locale_found: True -> False
+   catalog baseline (issue payment-provider-01, query locale=en, source=internal-search.hybrid-search):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/integrating-a-new-payment-provider-on-vtex
+     helpful (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/payments-overview
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/payments-integration-payment-provider-framework
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/payments-integration-guide
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/vtex-composable-components
+   test links reclassified:
+     [rank 2] test URL: https://developers.vtex.com/payments-integration-payment-provider-framework
+            stored type -> new type: other_helpful_doc -> unrelated
+            catalog match (stored): (unresolved — stored as other_helpful_doc; strict baseline: https://developers.vtex.com/docs/guides/payments-overview)
+            catalog match (new):      (none)
+     [rank 3] test URL: https://developers.vtex.com/integrating-a-new-payment-provider-on-vtex
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/integrating-a-new-payment-provider-on-vtex)
+            catalog match (new):      (none)
+     [rank 3] test URL: https://developers.vtex.com/integrating-a-new-payment-provider-on-vtex
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/integrating-a-new-payment-provider-on-vtex)
+            catalog match (new):      (none)
+     [rank 5] test URL: https://developers.vtex.com/payments-integration-guide
+            stored type -> new type: other_helpful_doc -> unrelated
+            catalog match (stored): (unresolved — stored as other_helpful_doc; strict baseline: https://developers.vtex.com/docs/guides/payments-overview)
+            catalog match (new):      (none)
+     [rank 7] test URL: https://developers.vtex.com/payments-overview
+            stored type -> new type: other_helpful_doc -> unrelated
+            catalog match (stored): (unresolved — stored as other_helpful_doc; strict baseline: https://developers.vtex.com/docs/guides/payments-overview)
+            catalog match (new):      (none)
+     [rank 9] test URL: https://developers.vtex.com/vtex-composable-components
+            stored type -> new type: other_helpful_doc -> unrelated
+            catalog match (stored): (unresolved — stored as other_helpful_doc; strict baseline: https://developers.vtex.com/docs/guides/payments-overview)
+            catalog match (new):      (none)
+
+22. payment-provider-02 | internal-search.hybrid-search | en/familiar
+   query: payment provider implementation
+   target_found: True -> False
+   target_different_loc_found: False -> False
+   target_any_locale_found: True -> False
+   catalog baseline (issue payment-provider-02, query locale=en, source=internal-search.hybrid-search):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/payments-integration-implementing-a-payment-provider
+     helpful (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/payments-integration-guide
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/payments-integration-purchase-flows
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/payments-integration-implementing-a-payment-provider
+   test links reclassified:
+     [rank 4] test URL: https://developers.vtex.com/payments-integration-implementing-a-payment-provider
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/payments-integration-implementing-a-payment-provider)
+            catalog match (new):      (none)
+     [rank 4] test URL: https://developers.vtex.com/payments-integration-implementing-a-payment-provider
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/payments-integration-implementing-a-payment-provider)
+            catalog match (new):      (none)
+
+23. payment-provider-02 | internal-search.hybrid-search | en/expert
+   query: implementing a payment provider
+   target_found: True -> False
+   target_different_loc_found: False -> False
+   target_any_locale_found: True -> False
+   catalog baseline (issue payment-provider-02, query locale=en, source=internal-search.hybrid-search):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/payments-integration-implementing-a-payment-provider
+     helpful (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/payments-integration-guide
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/payments-integration-purchase-flows
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/payments-integration-implementing-a-payment-provider
+   test links reclassified:
+     [rank 1] test URL: https://developers.vtex.com/payments-integration-implementing-a-payment-provider
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/payments-integration-implementing-a-payment-provider)
+            catalog match (new):      (none)
+     [rank 10] test URL: https://developers.vtex.com/payments-integration-guide
+            stored type -> new type: other_helpful_doc -> unrelated
+            catalog match (stored): (unresolved — stored as other_helpful_doc; strict baseline: https://developers.vtex.com/docs/guides/payments-integration-guide)
+            catalog match (new):      (none)
+
+24. product-indexing-01 | llm.chatgpt | pt/naive
+   query: Por que as atualizações dos meus produtos não aparecem quando os clientes pesquisam na minha loja VTEX?
+   target_found: False -> False
+   target_different_loc_found: False -> True
+   target_any_locale_found: False -> True
+   catalog baseline (issue product-indexing-01, query locale=pt, source=llm.chatgpt):
+     strict target (same locale):
+       - [pt] https://help.vtex.com/pt/tutorial/entendendo-o-funcionamento-da-indexacao
+       - [pt] https://help.vtex.com/pt/troubleshooting/nao-consigo-indexar-um-produto-do-catalogo
+       - [pt] https://help.vtex.com/pt/docs/tutorials/utilizar-o-relatorio-de-indexacao
+       - [pt] https://help.vtex.com/pt/docs/tutorials/entendendo-o-funcionamento-da-indexacao
+     target (other locales):
+       - [es] https://help.vtex.com/es/tutorial/entendiendo-el-funcionamento-de-la-indexacion
+       - [es] https://help.vtex.com/es/troubleshooting/no-logro-indexar-un-producto-del-catalogo
+       - [es] https://help.vtex.com/es/docs/tutorials/utilizando-el-informe-de-indexacion
+       - [en] https://help.vtex.com/en/docs/tutorials/understanding-how-indexation-works
+       - [es] https://help.vtex.com/es/docs/tutorials/entendiendo-el-funcionamento-de-la-indexacion
+       - [en] https://help.vtex.com/en/troubleshooting/i-cant-index-a-product-in-the-catalog
+       - [en] https://help.vtex.com/en/docs/tutorials/how-to-use-the-index-report
+     helpful (same locale):
+       - [pt] https://help.vtex.com/pt/faq/por-que-o-produto-nao-aparece-no-site
+     helpful (other locales):
+       - [en] https://help.vtex.com/en/faq/why-is-the-product-not-visible-on-the-website
+       - [es] https://help.vtex.com/es/faq/por-que-el-producto-no-aparece-en-el-sitio-web
+   test links reclassified:
+     [rank 1] test URL: https://help.vtex.com/es/troubleshooting/nao-consigo-indexar-um-produto-do-catalogo?utm_source=chatgpt.com
+            stored type -> new type: unrelated -> target_doc_different_loc
+            catalog match (stored): (none)
+            catalog match (new):      https://help.vtex.com/pt/troubleshooting/nao-consigo-indexar-um-produto-do-catalogo
+     [rank 4] test URL: https://help.vtex.com/en/faq/por-que-o-produto-nao-aparece-no-site?utm_source=chatgpt.com
+            stored type -> new type: unrelated -> other_helpful_doc_different_loc
+            catalog match (stored): (none)
+            catalog match (new):      https://help.vtex.com/pt/faq/por-que-o-produto-nao-aparece-no-site
+
+25. product-not-visible-01 | llm.chatgpt | pt/familiar
+   query: Por que o meu produto VTEX não está aparecendo no site?
+   target_found: True -> True
+   target_different_loc_found: False -> True
+   target_any_locale_found: True -> True
+   catalog baseline (issue product-not-visible-01, query locale=pt, source=llm.chatgpt):
+     strict target (same locale):
+       - [pt] https://help.vtex.com/pt/faq/por-que-o-produto-nao-aparece-no-site
+     target (other locales):
+       - [es] https://help.vtex.com/es/faq/por-que-el-producto-no-aparece-en-el-sitio-web
+       - [en] https://help.vtex.com/en/faq/why-is-the-product-not-visible-on-the-website
+     helpful (same locale):
+       - [pt] https://help.vtex.com/pt/docs/tutorials/adicionar-ou-editar-produto
+       - [pt] https://help.vtex.com/pt/docs/tutorials/adicionar-ou-editar-sku
+       - [pt] https://help.vtex.com/pt/docs/tutorials/produtos-e-skus
+     helpful (other locales):
+       - [es] https://help.vtex.com/es/docs/tutorials/agregar-o-editar-productos
+       - [es] https://help.vtex.com/es/docs/tutorials/agregar-o-editar-skus
+       - [es] https://help.vtex.com/es/docs/tutorials/productos-y-skus
+       - [en] https://help.vtex.com/en/docs/tutorials/adding-or-editing-products
+       - [en] https://help.vtex.com/en/docs/tutorials/adding-or-editing-skus
+       - [en] https://help.vtex.com/en/docs/tutorials/products-and-skus
+   test links reclassified:
+     [rank 1] test URL: https://help.vtex.com/en/faq/por-que-o-produto-nao-aparece-no-site?utm_source=chatgpt.com
+            stored type -> new type: unrelated -> target_doc_different_loc
+            catalog match (stored): (none)
+            catalog match (new):      https://help.vtex.com/pt/faq/por-que-o-produto-nao-aparece-no-site
+
+26. product-not-visible-01 | llm.chatgpt | pt/expert
+   query: Por que o produto não está visível no site no VTEX?
+   target_found: False -> False
+   target_different_loc_found: False -> True
+   target_any_locale_found: False -> True
+   catalog baseline (issue product-not-visible-01, query locale=pt, source=llm.chatgpt):
+     strict target (same locale):
+       - [pt] https://help.vtex.com/pt/faq/por-que-o-produto-nao-aparece-no-site
+     target (other locales):
+       - [es] https://help.vtex.com/es/faq/por-que-el-producto-no-aparece-en-el-sitio-web
+       - [en] https://help.vtex.com/en/faq/why-is-the-product-not-visible-on-the-website
+     helpful (same locale):
+       - [pt] https://help.vtex.com/pt/docs/tutorials/adicionar-ou-editar-produto
+       - [pt] https://help.vtex.com/pt/docs/tutorials/adicionar-ou-editar-sku
+       - [pt] https://help.vtex.com/pt/docs/tutorials/produtos-e-skus
+     helpful (other locales):
+       - [es] https://help.vtex.com/es/docs/tutorials/agregar-o-editar-productos
+       - [es] https://help.vtex.com/es/docs/tutorials/agregar-o-editar-skus
+       - [es] https://help.vtex.com/es/docs/tutorials/productos-y-skus
+       - [en] https://help.vtex.com/en/docs/tutorials/adding-or-editing-products
+       - [en] https://help.vtex.com/en/docs/tutorials/adding-or-editing-skus
+       - [en] https://help.vtex.com/en/docs/tutorials/products-and-skus
+   test links reclassified:
+     [rank 1] test URL: https://help.vtex.com/en/faq/por-que-o-produto-nao-aparece-no-site?utm_source=chatgpt.com
+            stored type -> new type: unrelated -> target_doc_different_loc
+            catalog match (stored): (none)
+            catalog match (new):      https://help.vtex.com/pt/faq/por-que-o-produto-nao-aparece-no-site
+
+27. sap-catalog-01 | internal-search.hybrid-search | en/naive
+   query: product catalog business software online store
+   target_found: True -> False
+   target_different_loc_found: False -> False
+   target_any_locale_found: True -> False
+   catalog baseline (issue sap-catalog-01, query locale=en, source=internal-search.hybrid-search):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/catalog-overview
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/erp-integration-import-products
+     helpful (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/erp-integration-guide
+   test links reclassified:
+     [rank 2] test URL: https://developers.vtex.com/catalog-overview
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/catalog-overview)
+            catalog match (new):      (none)
+
+28. sap-catalog-01 | internal-search.hybrid-search | en/expert
+   query: integrate catalog SAP ERP VTEX backend
+   target_found: True -> False
+   target_different_loc_found: False -> False
+   target_any_locale_found: True -> False
+   catalog baseline (issue sap-catalog-01, query locale=en, source=internal-search.hybrid-search):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/catalog-overview
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/erp-integration-import-products
+     helpful (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/erp-integration-guide
+   test links reclassified:
+     [rank 3] test URL: https://developers.vtex.com/erp-integration-import-products
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/catalog-overview)
+            catalog match (new):      (none)
+     [rank 4] test URL: https://developers.vtex.com/erp-integration-guide
+            stored type -> new type: other_helpful_doc -> unrelated
+            catalog match (stored): (unresolved — stored as other_helpful_doc; strict baseline: https://developers.vtex.com/docs/guides/erp-integration-guide)
+            catalog match (new):      (none)
+     [rank 6] test URL: https://developers.vtex.com/catalog-overview
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/catalog-overview)
+            catalog match (new):      (none)
+
+29. support-work-01 | external-search.google-search-playwright | pt/expert
+   query: planos de suporte VTEX sistema de tickets
+   target_found: True -> True
+   target_different_loc_found: False -> True
+   target_any_locale_found: True -> True
+   catalog baseline (issue support-work-01, query locale=pt, source=external-search.google-search-playwright):
+     strict target (same locale):
+       - [pt] https://help.vtex.com/pt/tutorial/como-funciona-o-suporte-da-vtex
+       - [pt] https://help.vtex.com/pt/docs/tutorials/como-funciona-o-suporte-da-vtex
+       - [pt] https://help.vtex.com/pt/docs/tracks/funcionamento-do-suporte-vtex
+       - [pt] https://help.vtex.com/pt/docs/tracks/suporte-na-vtex
+     target (other locales):
+       - [es] https://help.vtex.com/es/tutorial/como-funciona-el-soporte-de-vtex
+       - [en] https://help.vtex.com/en/docs/tracks/how-vtex-support-works
+       - [en] https://help.vtex.com/en/docs/tutorials/how-does-vtex-support-work
+       - [es] https://help.vtex.com/es/docs/tutorials/como-funciona-el-soporte-de-vtex
+       - [es] https://help.vtex.com/es/docs/tracks/funcionamiento-del-soporte-vtex
+       - [en] https://help.vtex.com/en/docs/tracks/vtex-support
+       - [es] https://help.vtex.com/es/docs/tracks/soporte-vtex
+     helpful (same locale):
+       - [pt] https://help.vtex.com/pt/docs/tutorials/abrir-chamados-para-o-suporte-vtex
+     helpful (other locales):
+       - [en] https://help.vtex.com/en/docs/tutorials/opening-tickets-to-vtex-support
+       - [es] https://help.vtex.com/es/docs/tutorials/abrir-tickets-para-el-soporte-vtex
+   test links reclassified:
+     [rank 4] test URL: https://help.vtex.com/es/docs/tracks/funcionamento-do-suporte-vtex
+            stored type -> new type: unrelated -> target_doc_different_loc
+            catalog match (stored): (none)
+            catalog match (new):      https://help.vtex.com/pt/docs/tracks/funcionamento-do-suporte-vtex
+
+30. webstore-oauth2-01 | internal-search.hybrid-search | en/naive
+   query: custom login external identity
+   target_found: True -> False
+   target_different_loc_found: False -> False
+   target_any_locale_found: True -> False
+   catalog baseline (issue webstore-oauth2-01, query locale=en, source=internal-search.hybrid-search):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/login-integration-guide-webstore-oauth2
+     helpful (same locale):
+       - [en] https://help.vtex.com/en/docs/tutorials/creating-an-oauth2-authentication
+     helpful (other locales):
+       - [pt] https://help.vtex.com/pt/docs/tutorials/criar-autenticacao-oauth2
+       - [es] https://help.vtex.com/es/docs/tutorials/crear-autenticacion-oauth2
+   test links reclassified:
+     [rank 2] test URL: https://developers.vtex.com/login-integration-guide-webstore-oauth2
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/login-integration-guide-webstore-oauth2)
+            catalog match (new):      (none)
+
+31. webstore-oauth2-01 | internal-search.hybrid-search | en/familiar
+   query: OAuth webstore identity provider configure
+   target_found: True -> False
+   target_different_loc_found: False -> False
+   target_any_locale_found: True -> False
+   catalog baseline (issue webstore-oauth2-01, query locale=en, source=internal-search.hybrid-search):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/login-integration-guide-webstore-oauth2
+     helpful (same locale):
+       - [en] https://help.vtex.com/en/docs/tutorials/creating-an-oauth2-authentication
+     helpful (other locales):
+       - [pt] https://help.vtex.com/pt/docs/tutorials/criar-autenticacao-oauth2
+       - [es] https://help.vtex.com/es/docs/tutorials/crear-autenticacion-oauth2
+   test links reclassified:
+     [rank 10] test URL: https://developers.vtex.com/login-integration-guide-webstore-oauth2
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/login-integration-guide-webstore-oauth2)
+            catalog match (new):      (none)
+     [rank 10] test URL: https://developers.vtex.com/login-integration-guide-webstore-oauth2
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/login-integration-guide-webstore-oauth2)
+            catalog match (new):      (none)
+     [rank 10] test URL: https://developers.vtex.com/login-integration-guide-webstore-oauth2
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/login-integration-guide-webstore-oauth2)
+            catalog match (new):      (none)
+     [rank 10] test URL: https://developers.vtex.com/login-integration-guide-webstore-oauth2
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/login-integration-guide-webstore-oauth2)
+            catalog match (new):      (none)
+     [rank 10] test URL: https://developers.vtex.com/login-integration-guide-webstore-oauth2
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/login-integration-guide-webstore-oauth2)
+            catalog match (new):      (none)
+     [rank 10] test URL: https://developers.vtex.com/login-integration-guide-webstore-oauth2
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/login-integration-guide-webstore-oauth2)
+            catalog match (new):      (none)
+     [rank 10] test URL: https://developers.vtex.com/login-integration-guide-webstore-oauth2
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/login-integration-guide-webstore-oauth2)
+            catalog match (new):      (none)
+     [rank 10] test URL: https://developers.vtex.com/login-integration-guide-webstore-oauth2
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/login-integration-guide-webstore-oauth2)
+            catalog match (new):      (none)
+     [rank 10] test URL: https://developers.vtex.com/login-integration-guide-webstore-oauth2
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/login-integration-guide-webstore-oauth2)
+            catalog match (new):      (none)
+
+32. webstore-oauth2-01 | internal-search.hybrid-search | en/expert
+   query: login integration guide webstore OAuth2
+   target_found: True -> False
+   target_different_loc_found: False -> False
+   target_any_locale_found: True -> False
+   catalog baseline (issue webstore-oauth2-01, query locale=en, source=internal-search.hybrid-search):
+     strict target (same locale):
+       - [locale-less (bridged to query locale)] https://developers.vtex.com/docs/guides/login-integration-guide-webstore-oauth2
+     helpful (same locale):
+       - [en] https://help.vtex.com/en/docs/tutorials/creating-an-oauth2-authentication
+     helpful (other locales):
+       - [pt] https://help.vtex.com/pt/docs/tutorials/criar-autenticacao-oauth2
+       - [es] https://help.vtex.com/es/docs/tutorials/crear-autenticacion-oauth2
+   test links reclassified:
+     [rank 2] test URL: https://developers.vtex.com/login-integration-guide-webstore-oauth2
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/login-integration-guide-webstore-oauth2)
+            catalog match (new):      (none)
+     [rank 2] test URL: https://developers.vtex.com/login-integration-guide-webstore-oauth2
+            stored type -> new type: target_doc -> unrelated
+            catalog match (stored): (unresolved — stored as target_doc; strict baseline: https://developers.vtex.com/docs/guides/login-integration-guide-webstore-oauth2)
+            catalog match (new):      (none)
+
+TOTAL changed queries: 32

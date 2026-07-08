@@ -1,0 +1,19 @@
+issue_id,source,locale,style,query,old_target_found,new_target_found,old_target_different_loc_found,new_target_different_loc_found,old_target_any_locale_found,new_target_any_locale_found,has_help_center,has_locale_query_param
+"cms-migration-01","internal-search.hybrid-search","en","familiar","Store Framework migration production rollback",True,False,False,False,True,False,False,False
+"cms-migration-01","internal-search.hybrid-search","en","expert","CMS Legacy Store Framework migration rollback",True,False,False,False,True,False,True,False
+"content-delivery-optimization-01","internal-search.hybrid-search","en","naive","content delivery optimization",True,False,False,False,True,False,False,False
+"content-delivery-optimization-01","internal-search.hybrid-search","en","familiar","CDN caching content delivery",True,False,False,False,True,False,True,False
+"content-delivery-optimization-01","internal-search.hybrid-search","en","expert","cloud infrastructure content delivery optimization",True,False,False,False,True,False,False,False
+"customer-credit-01","internal-search.hybrid-search","en","naive","customer credit api",True,False,False,False,True,False,True,False
+"customer-credit-01","internal-search.hybrid-search","en","familiar","manage customer credit account",True,False,False,False,True,False,True,False
+"customer-credit-01","internal-search.hybrid-search","en","expert","managing a customer credit account",True,False,False,False,True,False,True,False
+"payment-provider-01","internal-search.hybrid-search","en","naive","add payment provider vtex",True,False,False,False,True,False,True,False
+"payment-provider-01","internal-search.hybrid-search","en","familiar","payment provider integration",True,False,False,False,True,False,True,False
+"payment-provider-01","internal-search.hybrid-search","en","expert","integrating a new payment provider on vtex",True,False,False,False,True,False,True,False
+"payment-provider-02","internal-search.hybrid-search","en","familiar","payment provider implementation",True,False,False,False,True,False,True,False
+"payment-provider-02","internal-search.hybrid-search","en","expert","implementing a payment provider",True,False,False,False,True,False,True,False
+"sap-catalog-01","internal-search.hybrid-search","en","naive","product catalog business software online store",True,False,False,False,True,False,True,False
+"sap-catalog-01","internal-search.hybrid-search","en","expert","integrate catalog SAP ERP VTEX backend",True,False,False,False,True,False,True,False
+"webstore-oauth2-01","internal-search.hybrid-search","en","naive","custom login external identity",True,False,False,False,True,False,True,False
+"webstore-oauth2-01","internal-search.hybrid-search","en","familiar","OAuth webstore identity provider configure",True,False,False,False,True,False,True,False
+"webstore-oauth2-01","internal-search.hybrid-search","en","expert","login integration guide webstore OAuth2",True,False,False,False,True,False,True,False

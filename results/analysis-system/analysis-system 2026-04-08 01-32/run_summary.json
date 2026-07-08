@@ -1,0 +1,147 @@
+{
+  "analysis_id": "analysis-20260408-013258",
+  "run_id": "analysis-system 2026-04-08 01-32",
+  "timestamp": "2026-06-16T22:28:37.915541+00:00",
+  "success_thresholds": {
+    "internal-search": {
+      "top_k": 7
+    },
+    "docs-assistant": {
+      "top_k": "all_returned_links"
+    },
+    "external-search": {
+      "top_k": "all_returned_links"
+    },
+    "llm": {
+      "top_k": "all_returned_links"
+    }
+  },
+  "paths_included": [
+    "docs-assistant.api.en",
+    "docs-assistant.api.en.markdown",
+    "docs-assistant.api.en.suggested_sources",
+    "docs-assistant.api.es",
+    "docs-assistant.api.es.markdown",
+    "docs-assistant.api.es.suggested_sources",
+    "docs-assistant.api.pt",
+    "docs-assistant.api.pt.markdown",
+    "docs-assistant.api.pt.suggested_sources",
+    "external-search.google-search-playwright.en",
+    "external-search.google-search-playwright.es",
+    "external-search.google-search-playwright.pt",
+    "internal-search.algolia-devportal.en",
+    "internal-search.algolia-helpcenter.en",
+    "internal-search.algolia-helpcenter.es",
+    "internal-search.algolia-helpcenter.pt",
+    "internal-search.hybrid-search.en",
+    "internal-search.hybrid-search.es",
+    "internal-search.hybrid-search.pt",
+    "llm.chatgpt.en",
+    "llm.chatgpt.es",
+    "llm.chatgpt.pt",
+    "llm.gemini.en",
+    "llm.gemini.es",
+    "llm.gemini.pt"
+  ],
+  "locales_included": [
+    "en",
+    "es",
+    "pt"
+  ],
+  "n_issues": 35,
+  "n_queries_total": 1455,
+  "quality_scored": [],
+  "selected_runs": {
+    "internal-search.algolia-helpcenter": {
+      "run_dir": "results\\internal-search\\algolia-helpcenter\\algolia-helpcenter 2026-04-07 09-26",
+      "artifact_path": "results\\internal-search\\algolia-helpcenter\\algolia-helpcenter 2026-04-07 09-26\\algolia-helpcenter-run-2026-04-07-092638.json",
+      "timestamp": "2026-04-07T09:26:00+00:00",
+      "actual_queries": 225,
+      "expected_queries": 225,
+      "nonempty_queries": 225,
+      "nonempty_ratio": 1.0,
+      "is_full": true,
+      "is_healthy": true
+    },
+    "internal-search.algolia-devportal": {
+      "run_dir": "results\\internal-search\\algolia-devportal\\algolia-devportal 2026-04-07 09-26",
+      "artifact_path": "results\\internal-search\\algolia-devportal\\algolia-devportal 2026-04-07 09-26\\algolia-devportal-run-2026-04-07-092638.json",
+      "timestamp": "2026-04-07T09:26:00+00:00",
+      "actual_queries": 105,
+      "expected_queries": 105,
+      "nonempty_queries": 50,
+      "nonempty_ratio": 0.47619,
+      "is_full": true,
+      "is_healthy": true
+    },
+    "internal-search.hybrid-search": {
+      "run_dir": "results\\internal-search\\hybrid-search\\hybrid-search 2026-04-07 09-29",
+      "artifact_path": "results\\internal-search\\hybrid-search\\hybrid-search 2026-04-07 09-29\\hybrid-search-run-2026-04-07-092959.json",
+      "timestamp": "2026-04-07T09:29:00+00:00",
+      "actual_queries": 225,
+      "expected_queries": 225,
+      "nonempty_queries": 225,
+      "nonempty_ratio": 1.0,
+      "is_full": true,
+      "is_healthy": true
+    },
+    "docs-assistant.api": {
+      "run_dir": "results\\docs-assistant\\api\\docs-assistant 2026-04-07 10-28",
+      "artifact_path": "results\\docs-assistant\\api\\docs-assistant 2026-04-07 10-28\\docs-assistant-run-2026-04-07T12-35-11.json",
+      "timestamp": "2026-04-07T10:28:00+00:00",
+      "actual_queries": 225,
+      "expected_queries": 225,
+      "nonempty_queries": 225,
+      "nonempty_ratio": 1.0,
+      "is_full": true,
+      "is_healthy": true
+    },
+    "external-search.google-search-playwright": {
+      "run_dir": "results\\external-search\\google-search-playwright\\google-search-playwright 2026-04-07 10-28",
+      "artifact_path": "results\\external-search\\google-search-playwright\\google-search-playwright 2026-04-07 10-28\\results.json",
+      "timestamp": "2026-04-07T10:28:00+00:00",
+      "actual_queries": 225,
+      "expected_queries": 225,
+      "nonempty_queries": 224,
+      "nonempty_ratio": 0.995556,
+      "is_full": true,
+      "is_healthy": true
+    },
+    "llm.chatgpt": {
+      "run_dir": "results\\external-llms\\chatgpt\\external-llms-chatgpt 2026-04-07 14-18",
+      "artifact_path": "results\\external-llms\\chatgpt\\external-llms-chatgpt 2026-04-07 14-18\\run_metadata.json",
+      "timestamp": "2026-04-07T14:18:00+00:00",
+      "actual_queries": 225,
+      "expected_queries": 225,
+      "nonempty_queries": 225,
+      "nonempty_ratio": 1.0,
+      "is_full": true,
+      "is_healthy": true
+    },
+    "llm.gemini": {
+      "run_dir": "results\\external-llms\\gemini\\external-llms-gemini 2026-04-07 18-32",
+      "artifact_path": "results\\external-llms\\gemini\\external-llms-gemini 2026-04-07 18-32\\run_metadata.json",
+      "timestamp": "2026-04-07T18:32:00+00:00",
+      "actual_queries": 225,
+      "expected_queries": 225,
+      "nonempty_queries": 213,
+      "nonempty_ratio": 0.946667,
+      "is_full": true,
+      "is_healthy": true
+    }
+  },
+  "total_issues": 35,
+  "total_queries": 1455,
+  "overall_target_pass_rate": 0.578431,
+  "overall_target_mrr": 0.406182,
+  "overall_target_any_locale_mrr": 0.439627,
+  "overall_target_any_locale_pass_rate": 0.625943,
+  "overall_helpful_pass_rate": 0.726244,
+  "overall_helpful_found_rate": 0.286576,
+  "overall_helpful_any_locale_found_rate": 0.328054,
+  "overall_any_relevant_rate": 0.674208,
+  "overall_any_relevant_any_locale_rate": 0.726244,
+  "n_not_available": 129,
+  "reprocessed_at": "2026-06-16T22:28:37.915551+00:00",
+  "url_matcher_version": "help-center-query-locale-v2"
+}
