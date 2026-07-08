@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>__PAGE_TITLE__</title>
+    <link rel="stylesheet" href="assets/dashboard.css" />
+    <script src="assets/chart.umd.min.js"></script>
+    <script defer src="assets/dashboard_shared.js"></script>
+  </head>
+  <body data-dashboard-mode="timeline">
+    <header class="hero">
+      <div class="hero__inner">
+        <div>
+          <p class="hero__eyebrow">VTEX Education - Analysis Dashboard</p>
+          <h1>__DASHBOARD_TITLE__</h1>
+          <p class="hero__subtitle">__DASHBOARD_SUBTITLE__</p>
+        </div>
+        <div class="hero__actions">
+          <button class="ghost-button" type="button" data-presentation-mode aria-pressed="false">Presentation mode</button>
+        </div>
+      </div>
+    </header>
+
+    __DASHBOARD_NAV__
+    __DASHBOARD_HELP__
+    __RELATED_LINKS__
+
+    <div class="page-shell">
+      __METRICS_GUIDE__
+      __SUMMARY_CARDS__
+
+      <div class="layout">
+        <aside class="sidebar">
+          <nav class="sidebar-nav">
+            <p class="sidebar-nav__title">Sections</p>
+            <a class="sidebar-nav__link active" data-section="overall">Overall Metrics</a>
+            <a class="sidebar-nav__link" data-section="paths">Pass Rate by Path</a>
+            <a class="sidebar-nav__link" data-section="paths-mrr">MRR by Path</a>
+            <a class="sidebar-nav__link" data-section="locales">Pass Rate by Locale</a>
+            <a class="sidebar-nav__link" data-section="styles">Pass Rate by Style</a>
+            <a class="sidebar-nav__link" data-section="styles-locale">Styles per Locale</a>
+            <a class="sidebar-nav__link" data-section="personas-locale">Personas per Locale</a>
+            <a class="sidebar-nav__link" data-section="portals">Portals by Locale</a>
+            <a class="sidebar-nav__link" data-section="movers">Top Movers</a>
+            <a class="sidebar-nav__link" data-section="issues">Per-Issue Trends</a>
+            <a class="sidebar-nav__link" data-section="runs-table">All Runs</a>
+          </nav>
+        </aside>
+
+        <div class="main-content">
+          <!-- Overall Metrics -->
+          <section class="section visible presentation-core" id="sec-overall">
+            <h2>Overall Metrics Over Time</h2>
+            <div class="section__controls">
+              <div class="ctrl-group">
+                <label>Metrics</label>
+                <button class="ctrl-btn active" data-toggle-dataset="overallChart" data-idx="0">Target Pass</button>
+                <button class="ctrl-btn active" data-toggle-dataset="overallChart" data-idx="1">MRR</button>
+                <button class="ctrl-btn active" data-toggle-dataset="overallChart" data-idx="2">Helpful Pass</button>
+              </div>
+              <div class="chart-type-toggle">
+                <button class="ctrl-btn active" data-chart-type="line" data-chart="overallChart">Line</button>
+                <button class="ctrl-btn" data-chart-type="bar" data-chart="overallChart">Bar</button>
+              </div>
+            </div>
+            <div class="chart-container"><canvas id="overallChart"></canvas></div>
+          </section>
+
+          <!-- Pass Rate by Path -->
+          <section class="section presentation-core" id="sec-paths">
+            <h2>Pass Rate by Path Over Time</h2>
+            <div class="section__controls" id="pathFilters">
+              <div class="chart-type-toggle">
+                <button class="ctrl-btn active" data-chart-type="line" data-chart="pathChart">Line</button>
+                <button class="ctrl-btn" data-chart-type="bar" data-chart="pathChart">Bar</button>
+              </div>
+            </div>
+            <div class="chart-container"><canvas id="pathChart"></canvas></div>
+          </section>
+
+          <!-- MRR by Path -->
+          <section class="section presentation-core" id="sec-paths-mrr">
+            <h2>MRR by Path Over Time</h2>
+            <div class="section__controls" id="pathMrrFilters">
+              <div class="chart-type-toggle">
+                <button class="ctrl-btn active" data-chart-type="line" data-chart="pathMrrChart">Line</button>
+                <button class="ctrl-btn" data-chart-type="bar" data-chart="pathMrrChart">Bar</button>
+              </div>
+            </div>
+            <div class="chart-container"><canvas id="pathMrrChart"></canvas></div>
+          </section>
+
+          <!-- Locale -->
+          <section class="section presentation-core" id="sec-locales">
+            <h2>Pass Rate by Locale Over Time</h2>
+            <div class="section__controls">
+              <div class="chart-type-toggle">
+                <button class="ctrl-btn active" data-chart-type="line" data-chart="localeChart">Line</button>
+                <button class="ctrl-btn" data-chart-type="bar" data-chart="localeChart">Bar</button>
+              </div>
+            </div>
+            <div class="chart-container"><canvas id="localeChart"></canvas></div>
+          </section>
+
+          <!-- Query Style -->
+          <section class="section presentation-core" id="sec-styles">
+            <h2>Pass Rate by Query Style Over Time</h2>
+            <div class="section__controls">
+              <div class="chart-type-toggle">
+                <button class="ctrl-btn active" data-chart-type="line" data-chart="styleChart">Line</button>
+                <button class="ctrl-btn" data-chart-type="bar" data-chart="styleChart">Bar</button>
+              </div>
+            </div>
+            <div class="chart-container"><canvas id="styleChart"></canvas></div>
+          </section>
+
+          <!-- Styles per Locale -->
+          <section class="section presentation-hide" id="sec-styles-locale">
+            <h2>Pass Rate by Style per Locale</h2>
+            <div class="section__controls" id="styleLocaleFilters">
+              <div class="chart-type-toggle">
+                <button class="ctrl-btn active" data-chart-type="line" data-chart="styleLocaleChart">Line</button>
+                <button class="ctrl-btn" data-chart-type="bar" data-chart="styleLocaleChart">Bar</button>
+              </div>
+            </div>
+            <div class="chart-container"><canvas id="styleLocaleChart"></canvas></div>
+          </section>
+
+          <!-- Personas per Locale -->
+          <section class="section presentation-hide" id="sec-personas-locale">
+            <h2>Pass Rate by Persona per Locale</h2>
+            <div class="section__controls" id="personaLocaleFilters">
+              <div class="chart-type-toggle">
+                <button class="ctrl-btn active" data-chart-type="line" data-chart="personaLocaleChart">Line</button>
+                <button class="ctrl-btn" data-chart-type="bar" data-chart="personaLocaleChart">Bar</button>
+              </div>
+            </div>
+            <div class="chart-container"><canvas id="personaLocaleChart"></canvas></div>
+          </section>
+
+          <!-- Portals by Locale -->
+          <section class="section presentation-hide" id="sec-portals">
+            <h2>Pass Rate by Portal per Locale</h2>
+            <div class="section__controls" id="portalFilters">
+              <div class="chart-type-toggle">
+                <button class="ctrl-btn active" data-chart-type="line" data-chart="portalChart">Line</button>
+                <button class="ctrl-btn" data-chart-type="bar" data-chart="portalChart">Bar</button>
+              </div>
+            </div>
+            <div class="chart-container"><canvas id="portalChart"></canvas></div>
+          </section>
+          <!-- Top Movers -->
+          <section class="section presentation-core" id="sec-movers">
+            <h2>Top Movers (First Run vs Last Run)</h2>
+            __MOVERS_HTML__
+          </section>
+
+          <!-- Per-Issue Trends -->
+          <section class="section presentation-hide" id="sec-issues">
+            <h2>Per-Issue Trends</h2>
+            <div class="section__controls">
+              <div class="ctrl-group">
+                <label>Sort by</label>
+                <select id="issueSortSelect">
+                  <option value="delta-desc">Biggest improvement</option>
+                  <option value="delta-asc">Biggest regression</option>
+                  <option value="last-desc">Highest latest rate</option>
+                  <option value="last-asc">Lowest latest rate</option>
+                  <option value="id-asc">Issue ID (A-Z)</option>
+                </select>
+              </div>
+            </div>
+            <div class="table-wrap" id="issueTableWrap">__ISSUE_TABLE__</div>
+          </section>
+
+          <!-- All Runs -->
+          <section class="section presentation-hide" id="sec-runs-table">
+            <h2>All Runs</h2>
+            __RUNS_TABLE__
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const D = __TIMELINE_DATA_JSON__;
+
+      Chart.defaults.color = '#8b949e';
+      Chart.defaults.borderColor = '#30363d';
+
+      const COLORS = [
+        '#58a6ff','#3fb950','#f85149','#d29922','#bc8cff','#f778ba',
+        '#39d2c0','#79c0ff','#7ee787','#ffa657','#ff7b72','#d2a8ff',
+      ];
+      const LOCALE_COLORS = { en: '#58a6ff', es: '#3fb950', pt: '#d29922' };
+      const STYLE_COLORS = { expert: '#58a6ff', familiar: '#3fb950', naive: '#d29922' };
+      const charts = {};
+      window.timelineCharts = charts;
+
+      function pctTooltip(ctx) {
+        return ctx.dataset.label + ': ' + (ctx.parsed.y * 100).toFixed(2) + '%';
+      }
+      function pctTick(v) { return (v * 100).toFixed(0) + '%'; }
+
+      function lineOpts(extra) {
+        return Object.assign({
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } },
+            tooltip: { callbacks: { label: pctTooltip } },
+          },
+          scales: { y: { min: 0, max: 1, ticks: { callback: pctTick } } },
+        }, extra || {});
+      }
+
+      function hexToRgba(hex, alpha) {
+        const r = parseInt(hex.slice(1, 3), 16);
+        const g = parseInt(hex.slice(3, 5), 16);
+        const b = parseInt(hex.slice(5, 7), 16);
+        return 'rgba(' + r + ',' + g + ',' + b + ',' + alpha + ')';
+      }
+
+      function makeDataset(label, data, color, fill) {
+        return { label, data, borderColor: color, backgroundColor: fill ? hexToRgba(color, 0.08) : undefined, tension: 0.3, pointRadius: 3, fill: !!fill };
+      }
+
+      /* --- Overall --- */
+      charts.overallChart = new Chart(document.getElementById('overallChart').getContext('2d'), {
+        type: 'line',
+        data: {
+          labels: D.labels,
+          datasets: [
+            makeDataset('Target Pass Rate', D.overall_target_pass_rate, '#3fb950', true),
+            makeDataset('MRR', D.overall_mrr, '#58a6ff', true),
+            makeDataset('Helpful Pass', D.overall_helpful_pass_rate, '#d29922', true),
+          ],
+        },
+        options: lineOpts(),
+      });
+
+      /* --- Paths (pass rate) --- */
+      (function() {
+        const container = document.getElementById('pathFilters');
+        const datasets = D.paths.map((p, i) => makeDataset(p.path, p.pass_rates, COLORS[i % COLORS.length]));
+        charts.pathChart = new Chart(document.getElementById('pathChart').getContext('2d'), {
+          type: 'line', data: { labels: D.labels, datasets }, options: lineOpts(),
+        });
+        D.paths.forEach((p, i) => {
+          const btn = document.createElement('button');
+          btn.className = 'ctrl-btn active';
+          btn.textContent = p.path;
+          btn.style.borderLeftColor = COLORS[i % COLORS.length];
+          btn.style.borderLeftWidth = '3px';
+          btn.onclick = () => {
+            const meta = charts.pathChart.getDatasetMeta(i);
+            meta.hidden = !meta.hidden;
+            btn.classList.toggle('active');
+            charts.pathChart.update();
+          };
+          container.appendChild(btn);
+        });
+      })();
+
+      /* --- Paths (MRR) --- */
+      (function() {
+        const container = document.getElementById('pathMrrFilters');
+        const datasets = D.paths.map((p, i) => makeDataset(p.path, p.mrr, COLORS[i % COLORS.length]));
+        charts.pathMrrChart = new Chart(document.getElementById('pathMrrChart').getContext('2d'), {
+          type: 'line', data: { labels: D.labels, datasets },
+          options: lineOpts({ scales: { y: { min: 0, max: 1 } }, plugins: { tooltip: { callbacks: { label: ctx => ctx.dataset.label + ': ' + (ctx.parsed.y).toFixed(4) } } } }),
+        });
+        D.paths.forEach((p, i) => {
+          const btn = document.createElement('button');
+          btn.className = 'ctrl-btn active';
+          btn.textContent = p.path;
+          btn.style.borderLeftColor = COLORS[i % COLORS.length];
+          btn.style.borderLeftWidth = '3px';
+          btn.onclick = () => {
+            const meta = charts.pathMrrChart.getDatasetMeta(i);
+            meta.hidden = !meta.hidden;
+            btn.classList.toggle('active');
+            charts.pathMrrChart.update();
+          };
+          container.appendChild(btn);
+        });
+      })();
+
+      /* --- Locales --- */
+      charts.localeChart = new Chart(document.getElementById('localeChart').getContext('2d'), {
+        type: 'line',
+        data: {
+          labels: D.labels,
+          datasets: D.locales.map(l => makeDataset(l.locale.toUpperCase(), l.pass_rates, LOCALE_COLORS[l.locale] || '#8b949e')),
+        },
+        options: lineOpts(),
+      });
+
+      /* --- Styles --- */
+      charts.styleChart = new Chart(document.getElementById('styleChart').getContext('2d'), {
+        type: 'line',
+        data: {
+          labels: D.labels,
+          datasets: D.styles.map(s => makeDataset(s.style, s.pass_rates, STYLE_COLORS[s.style] || COLORS[0])),
+        },
+        options: lineOpts(),
+      });
+
+      /* --- helper: build a togglable chart from a list of {label, pass_rates} --- */
+      function buildTogglableChart(items, canvasId, containerId, chartKey) {
+        const container = document.getElementById(containerId);
+        const datasets = items.map((item, i) => makeDataset(item.label, item.pass_rates, COLORS[i % COLORS.length]));
+        charts[chartKey] = new Chart(document.getElementById(canvasId).getContext('2d'), {
+          type: 'line', data: { labels: D.labels, datasets }, options: lineOpts(),
+        });
+        items.forEach((item, i) => {
+          const btn = document.createElement('button');
+          btn.className = 'ctrl-btn active';
+          btn.textContent = item.label;
+          btn.style.borderLeftColor = COLORS[i % COLORS.length];
+          btn.style.borderLeftWidth = '3px';
+          btn.onclick = () => {
+            const meta = charts[chartKey].getDatasetMeta(i);
+            meta.hidden = !meta.hidden;
+            btn.classList.toggle('active');
+            charts[chartKey].update();
+          };
+          container.appendChild(btn);
+        });
+      }
+
+      /* --- Styles per Locale --- */
+      if (D.styles_locale && D.styles_locale.length) {
+        buildTogglableChart(D.styles_locale, 'styleLocaleChart', 'styleLocaleFilters', 'styleLocaleChart');
+      }
+
+      /* --- Personas per Locale --- */
+      if (D.personas_locale && D.personas_locale.length) {
+        buildTogglableChart(D.personas_locale, 'personaLocaleChart', 'personaLocaleFilters', 'personaLocaleChart');
+      }
+
+      /* --- Portals by Locale --- */
+      if (D.portals && D.portals.length) {
+        buildTogglableChart(D.portals, 'portalChart', 'portalFilters', 'portalChart');
+      }
+      /* --- Section navigation --- */
+      document.querySelectorAll('.sidebar-nav__link').forEach(link => {
+        link.addEventListener('click', () => {
+          document.querySelectorAll('.sidebar-nav__link').forEach(l => l.classList.remove('active'));
+          link.classList.add('active');
+          document.querySelectorAll('.section').forEach(s => s.classList.remove('visible'));
+          document.getElementById('sec-' + link.dataset.section).classList.add('visible');
+          Object.values(charts).forEach(c => c.resize());
+        });
+      });
+
+      /* --- Dataset toggle buttons --- */
+      document.querySelectorAll('[data-toggle-dataset]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const chart = charts[btn.dataset.toggleDataset];
+          const idx = parseInt(btn.dataset.idx);
+          const meta = chart.getDatasetMeta(idx);
+          meta.hidden = !meta.hidden;
+          btn.classList.toggle('active');
+          chart.update();
+        });
+      });
+
+      /* --- Chart type toggle (Line / Bar) --- */
+      document.querySelectorAll('[data-chart-type]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const chartKey = btn.dataset.chart;
+          const newType = btn.dataset.chartType;
+          const oldChart = charts[chartKey];
+          if (!oldChart || oldChart.config.type === newType) return;
+
+          const toggle = btn.closest('.chart-type-toggle');
+          toggle.querySelectorAll('.ctrl-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          const canvas = oldChart.canvas;
+          const labels = oldChart.data.labels;
+          const hiddenState = oldChart.data.datasets.map((_, i) => oldChart.getDatasetMeta(i).hidden);
+          const datasets = oldChart.data.datasets.map(ds => {
+            const color = ds.borderColor;
+            const origBg = ds._origBg !== undefined ? ds._origBg : ds.backgroundColor;
+            const base = { label: ds.label, data: ds.data.slice(), borderColor: color, _origBg: origBg };
+            if (newType === 'bar') {
+              base.backgroundColor = hexToRgba(color, 0.75);
+              base.borderWidth = 2;
+            } else {
+              base.backgroundColor = origBg;
+              base.tension = 0.3;
+              base.pointRadius = 3;
+              base.fill = !!origBg;
+            }
+            return base;
+          });
+          oldChart.destroy();
+
+          const opts = lineOpts();
+          if (newType === 'bar') {
+            opts.scales.x = { offset: true, grid: { offset: true } };
+          }
+          charts[chartKey] = new Chart(canvas.getContext('2d'), {
+            type: newType, data: { labels, datasets }, options: opts,
+          });
+          hiddenState.forEach((hidden, i) => {
+            if (hidden) charts[chartKey].getDatasetMeta(i).hidden = true;
+          });
+          charts[chartKey].update();
+        });
+      });
+      /* --- Issue table sorting --- */
+      const issueData = D.issue_trends || [];
+      const issueSort = document.getElementById('issueSortSelect');
+      if (issueSort) {
+        issueSort.addEventListener('change', () => renderIssueTable(issueSort.value));
+        renderIssueTable(issueSort.value);
+      }
+
+      function renderIssueTable(sortKey) {
+        const sorted = [...issueData];
+        switch (sortKey) {
+          case 'delta-desc': sorted.sort((a,b) => (b.delta ?? -99) - (a.delta ?? -99)); break;
+          case 'delta-asc': sorted.sort((a,b) => (a.delta ?? 99) - (b.delta ?? 99)); break;
+          case 'last-desc': sorted.sort((a,b) => (b.last ?? -1) - (a.last ?? -1)); break;
+          case 'last-asc': sorted.sort((a,b) => (a.last ?? 99) - (b.last ?? 99)); break;
+          case 'id-asc': sorted.sort((a,b) => a.issue_id.localeCompare(b.issue_id)); break;
+        }
+        const hdr = '<tr><th>Issue</th>' + D.labels.map(l => '<th>' + l + '</th>').join('') + '<th>Trend</th><th>Delta</th></tr>';
+        const rows = sorted.map(issue => {
+          const vals = issue.pass_rates.map(v => v !== null ? (v * 100).toFixed(1) + '%' : '-');
+          const cells = vals.map((v, i) => {
+            let css = '';
+            if (i > 0 && issue.pass_rates[i] !== null && issue.pass_rates[i-1] !== null) {
+              css = issue.pass_rates[i] > issue.pass_rates[i-1] ? ' class="up"' : issue.pass_rates[i] < issue.pass_rates[i-1] ? ' class="down"' : '';
+            }
+            return '<td' + css + '>' + v + '</td>';
+          }).join('');
+          const spark = sparkline(issue.pass_rates);
+          const d = issue.delta;
+          const dText = d !== null ? (d >= 0 ? '+' : '') + (d * 100).toFixed(2) + 'pp' : '-';
+          const dCss = d !== null ? (d > 0 ? 'up' : d < 0 ? 'down' : 'neutral') : 'neutral';
+          return '<tr><td>' + issue.issue_id + '</td>' + cells + '<td>' + spark + '</td><td class="' + dCss + '">' + dText + '</td></tr>';
+        }).join('');
+        document.getElementById('issueTableWrap').innerHTML = '<table class="data-table"><thead>' + hdr + '</thead><tbody>' + rows + '</tbody></table>';
+      }
+
+      function sparkline(values) {
+        const valid = values.filter(v => v !== null);
+        if (!valid.length) return '-';
+        const max = Math.max(...valid, 0.01);
+        return '<span class="sparkline">' + values.map(v => {
+          if (v === null) return '<span class="sparkline__bar" style="height:1px;opacity:0.2"></span>';
+          const h = Math.max(1, Math.round((v / max) * 18));
+          return '<span class="sparkline__bar" style="height:' + h + 'px"></span>';
+        }).join('') + '</span>';
+      }
+
+      /* --- Runs table delta highlighting --- */
+      document.querySelectorAll('.runs-delta-cell').forEach(cell => {
+        const v = parseFloat(cell.dataset.delta);
+        if (!isNaN(v)) {
+          cell.classList.add(v > 0.001 ? 'up' : v < -0.001 ? 'down' : 'neutral');
+        }
+      });
+    </script>
+  </body>
+</html>

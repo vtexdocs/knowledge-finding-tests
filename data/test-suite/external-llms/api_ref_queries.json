@@ -1,0 +1,44 @@
+{
+  "path": "External LLMs (API-reference subset)",
+  "generated_from": "docs\\test-suite\\issues",
+  "total_issues": 4,
+  "total_queries": 12,
+  "issues": [
+    {
+      "issue_id": "budgets-api-01",
+      "source_file": "budgets-api-01.md",
+      "queries": [
+        { "locale": "en", "style": "naive", "query": "how do i create a budget using vtex api" },
+        { "locale": "en", "style": "familiar", "query": "what api endpoint creates budgets in vtex" },
+        { "locale": "en", "style": "expert", "query": "how to create budgets via vtex budgets api" }
+      ]
+    },
+    {
+      "issue_id": "checkout-api-orders-01",
+      "source_file": "checkout-api-orders-01.md",
+      "queries": [
+        { "locale": "en", "style": "naive", "query": "what data format do i need to send when updating an order in vtex checkout api" },
+        { "locale": "en", "style": "familiar", "query": "what is the request body structure for updating orders in vtex checkout api" },
+        { "locale": "en", "style": "expert", "query": "how to format json payload for vtex checkout api put orders endpoint" }
+      ]
+    },
+    {
+      "issue_id": "orders-api-changes-01",
+      "source_file": "orders-api-changes-01.md",
+      "queries": [
+        { "locale": "en", "style": "naive", "query": "how do i get the history of changes made to an order using vtex api" },
+        { "locale": "en", "style": "familiar", "query": "what api endpoint returns order modifications history in vtex" },
+        { "locale": "en", "style": "expert", "query": "how to get order changes via vtex orders api" }
+      ]
+    },
+    {
+      "issue_id": "orders-api-invoice-date-01",
+      "source_file": "orders-api-invoice-date-01.md",
+      "queries": [
+        { "locale": "en", "style": "naive", "query": "how do i find orders created on a specific invoice date in vtex" },
+        { "locale": "en", "style": "familiar", "query": "what api endpoint lets me filter orders by invoice creation date in vtex" },
+        { "locale": "en", "style": "expert", "query": "how to query orders by invoice date using vtex orders api" }
+      ]
+    }
+  ]
+}

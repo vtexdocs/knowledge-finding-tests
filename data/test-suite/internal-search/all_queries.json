@@ -1,0 +1,1343 @@
+{
+  "path": "Internal search",
+  "generated_from": "docs\\test-suite\\issues",
+  "total_issues": 35,
+  "total_queries": 225,
+  "issues": [
+    {
+      "issue_id": "audit-search-01",
+      "source_file": "audit-search-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "audit capabilities security"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "audit trail compliance"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "audit"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "recursos de auditoria segurança"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "trilha de auditoria conformidade"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "auditoria"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "capacidades de auditoría seguridad"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "rastro de auditoría cumplimiento"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "auditoría"
+        }
+      ]
+    },
+    {
+      "issue_id": "bitcoin-payment-01",
+      "source_file": "bitcoin-payment-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "bitcoin payment vtex"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "enable bitcoin payments"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "enabling payments with bitcoin"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "pagamento bitcoin vtex"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "habilitar pagamentos com bitcoin"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "habilitando pagamentos com bitcoin"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "pago bitcoin vtex"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "habilitar pagos con bitcoin"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "habilitar pagos con bitcoin"
+        }
+      ]
+    },
+    {
+      "issue_id": "budgets-api-01",
+      "source_file": "budgets-api-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "budget api create"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "create budget"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "budgets api"
+        }
+      ]
+    },
+    {
+      "issue_id": "checkout-api-orders-01",
+      "source_file": "checkout-api-orders-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "checkout api order request body format"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "put orders checkout json structure"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "checkout api orders payload"
+        }
+      ]
+    },
+    {
+      "issue_id": "cms-migration-01",
+      "source_file": "cms-migration-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "migrate store safely undo changes"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "Store Framework migration production rollback"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "CMS Legacy Store Framework migration rollback"
+        }
+      ]
+    },
+    {
+      "issue_id": "conciliations-payment-01",
+      "source_file": "conciliations-payment-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "bank reconciliation boleto"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "bank reconciliations"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "bank reconciliations"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "conciliação bancária boleto"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "conciliações bancárias"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "conciliações bancárias"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "conciliación bancaria boleto"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "conciliaciones bancarias"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "conciliaciones bancarias"
+        }
+      ]
+    },
+    {
+      "issue_id": "conditions-payment-01",
+      "source_file": "conditions-payment-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "special conditions payments"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "payment method conditions"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "special conditions"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "condições especiais pagamentos"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "condições de método de pagamento"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "condições especiais"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "condiciones especiales pagos"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "condiciones de método de pago"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "condiciones especiales"
+        }
+      ]
+    },
+    {
+      "issue_id": "content-delivery-optimization-01",
+      "source_file": "content-delivery-optimization-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "content delivery optimization"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "CDN caching content delivery"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "cloud infrastructure content delivery optimization"
+        }
+      ]
+    },
+    {
+      "issue_id": "customer-credit-01",
+      "source_file": "customer-credit-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "customer credit api"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "manage customer credit account"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "managing a customer credit account"
+        }
+      ]
+    },
+    {
+      "issue_id": "faststore-dynamic-routes-plp-01",
+      "source_file": "faststore-dynamic-routes-plp-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "FastStore category page URL structure"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "FastStore PLP routing"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "FastStore dynamic routes product listing pages"
+        }
+      ]
+    },
+    {
+      "issue_id": "faststore-variable-renaming-01",
+      "source_file": "faststore-variable-renaming-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "change variable names"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "rename variables faststore"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "variable renaming faststore"
+        }
+      ]
+    },
+    {
+      "issue_id": "github-repository-migration-01",
+      "source_file": "github-repository-migration-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "move repository organization"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "GitHub repo migration transfer"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "repository organization transfer"
+        }
+      ]
+    },
+    {
+      "issue_id": "live-shopping-component-01",
+      "source_file": "live-shopping-component-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "add video player store"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "Live Shopping component storefront"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "placing Live Shopping component"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "adicionar player de vídeo loja"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "componente Live Shopping storefront"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "inserir componente Live Shopping"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "agregar reproductor de video tienda"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "componente Live Shopping storefront"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "insertar componente Live Shopping"
+        }
+      ]
+    },
+    {
+      "issue_id": "live-shopping-faststore-01",
+      "source_file": "live-shopping-faststore-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "live video streaming store"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "FastStore live shopping"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "live shopping FastStore implementation"
+        }
+      ]
+    },
+    {
+      "issue_id": "marketplace-orders-integration-01",
+      "source_file": "marketplace-orders-integration-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "marketplace orders integration"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "marketplace order integration errors"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "marketplace orders integrate store troubleshooting"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "integração de pedidos do marketplace"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "erros de integração de pedidos do marketplace"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "pedidos do marketplace integrar loja solução de problemas"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "integración de pedidos del marketplace"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "errores de integración de pedidos del marketplace"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "pedidos del marketplace integrar tienda solución de problemas"
+        }
+      ]
+    },
+    {
+      "issue_id": "orders-api-changes-01",
+      "source_file": "orders-api-changes-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "order changes history api"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "get order modifications"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "orders api changes"
+        }
+      ]
+    },
+    {
+      "issue_id": "orders-api-invoice-date-01",
+      "source_file": "orders-api-invoice-date-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "orders invoice date filter"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "get orders by invoice creation date"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "orders api invoice date"
+        }
+      ]
+    },
+    {
+      "issue_id": "payment-provider-01",
+      "source_file": "payment-provider-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "add payment provider vtex"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "payment provider integration"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "integrating a new payment provider on vtex"
+        }
+      ]
+    },
+    {
+      "issue_id": "payment-provider-02",
+      "source_file": "payment-provider-02.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "build payment provider vtex"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "payment provider implementation"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "implementing a payment provider"
+        }
+      ]
+    },
+    {
+      "issue_id": "pix-payment-01",
+      "source_file": "pix-payment-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "payment instant transfer online store"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "PIX payment VTEX provider setup"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "set up PIX payment provider VTEX Store Settings"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "pagamento transferência instantânea loja online"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "configuração de provedor PIX VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "configurar provedor de pagamento PIX VTEX configurações da loja"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "pago transferencia instantánea tienda online"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "configuración de proveedor PIX VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "configurar proveedor de pago PIX VTEX configuración de tienda"
+        }
+      ]
+    },
+    {
+      "issue_id": "product-excel-01",
+      "source_file": "product-excel-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "product export excel spreadsheet"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "catalog export Excel download"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "export products Excel VTEX catalog"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "exportar produto excel planilha"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "exportar catálogo Excel download"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "exportar produtos Excel VTEX catálogo"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "exportar producto excel hoja de cálculo"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "exportar catálogo Excel descarga"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "exportar productos Excel VTEX catálogo"
+        }
+      ]
+    },
+    {
+      "issue_id": "product-indexing-01",
+      "source_file": "product-indexing-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "products not updating search"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "product indexing issues"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "catalog indexing troubleshooting"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "produtos não atualizando busca"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "problemas de indexação de produtos"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "solução de problemas de indexação do catálogo"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "productos sin actualizar búsqueda"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "problemas de indexación de productos"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "solución de problemas de indexación del catálogo"
+        }
+      ]
+    },
+    {
+      "issue_id": "product-not-visible-01",
+      "source_file": "product-not-visible-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "products not showing"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "product not visible website"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "product not visible site FAQ"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "produtos não aparecendo"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "produto não visível no site"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "produto não visível site FAQ"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "productos no aparecen"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "producto no visible en el sitio"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "producto no visible sitio FAQ"
+        }
+      ]
+    },
+    {
+      "issue_id": "pwa-implementation-01",
+      "source_file": "pwa-implementation-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "offline app install store"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "progressive web app store"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "PWA VTEX IO configuration"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "instalação offline app loja"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "aplicativo web progressivo loja"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "configuração PWA VTEX IO"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "instalación offline app tienda"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "aplicación web progresiva tienda"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "configuración PWA VTEX IO"
+        }
+      ]
+    },
+    {
+      "issue_id": "refund-payment-01",
+      "source_file": "refund-payment-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "payment refunds"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "refund method"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "payment refunds"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "reembolso de pagamentos"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "método de reembolso"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "reembolso de pagamentos"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "reembolso de pagos"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "método de reembolso"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "reembolso de pagos"
+        }
+      ]
+    },
+    {
+      "issue_id": "sales-associates-salesapp-01",
+      "source_file": "sales-associates-salesapp-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "add employees store app"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "sales associates Sales App"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "managing sales associates VTEX Sales App"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "adicionar funcionários aplicativo loja"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "vendedores Sales App"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "gerenciar vendedores VTEX Sales App"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "agregar empleados app tienda"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "vendedores Sales App"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "gestionar vendedores VTEX Sales App"
+        }
+      ]
+    },
+    {
+      "issue_id": "sap-catalog-01",
+      "source_file": "sap-catalog-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "product catalog business software online store"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "SAP catalog VTEX sync integration"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "integrate catalog SAP ERP VTEX backend"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "catálogo de produtos software empresarial loja online"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "SAP catálogo VTEX sincronização integração"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "integrar catálogo SAP ERP VTEX backend"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "catálogo de productos software empresarial tienda online"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "SAP catálogo VTEX sincronización integración"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "integrar catálogo SAP ERP VTEX backend"
+        }
+      ]
+    },
+    {
+      "issue_id": "settlement-payment-01",
+      "source_file": "settlement-payment-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "payment settlement types"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "settlement types"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "payment settlement types"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "tipos de liquidação de pagamento"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "tipos de liquidação"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "tipos de liquidação de pagamento"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "tipos de liquidación de pagos"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "tipos de liquidación"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "tipos de liquidación de pagos"
+        }
+      ]
+    },
+    {
+      "issue_id": "shopee-integration-01",
+      "source_file": "shopee-integration-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "connect store Shopee sell"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "Shopee connector configure marketplace"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "install configure Shopee connector VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "conectar loja Shopee vender"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "Shopee conector configurar marketplace"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "instalar configurar conector Shopee VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "conectar tienda Shopee vender"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "Shopee conector configurar marketplace"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "instalar configurar conector Shopee VTEX"
+        }
+      ]
+    },
+    {
+      "issue_id": "split-payment-01",
+      "source_file": "split-payment-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "split payment"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "payment split"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "split payment"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "split de pagamento"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "split de pagamento"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "split de pagamento"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "split de pagos"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "split de pagos"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "split de pagos"
+        }
+      ]
+    },
+    {
+      "issue_id": "store-order-not-created-01",
+      "source_file": "store-order-not-created-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "order not created"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "order creation error inventory out of stock"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "store order not created troubleshooting"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "pedido não criado"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "erro de criação de pedido inventário sem estoque"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "pedido da loja não criado solução de problemas"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "pedido no creado"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "error de creación de pedido inventario sin stock"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "pedido de tienda no creado solución de problemas"
+        }
+      ]
+    },
+    {
+      "issue_id": "support-work-01",
+      "source_file": "support-work-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "support help"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "VTEX support ticket"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "support plans ticket system"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "suporte ajuda"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "ticket de suporte VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "planos de suporte sistema de tickets"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "soporte ayuda"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "ticket de soporte VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "planes de soporte sistema de tickets"
+        }
+      ]
+    },
+    {
+      "issue_id": "unified-commerce-capabilities-01",
+      "source_file": "unified-commerce-capabilities-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "omnichannel capabilities"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "unified commerce"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "unified commerce strategy"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "capacidades omnichannel"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "comércio unificado"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "estratégia de comércio unificado"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "capacidades omnichannel"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "comercio unificado"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "estrategia de comercio unificado"
+        }
+      ]
+    },
+    {
+      "issue_id": "webops-github-connection-01",
+      "source_file": "webops-github-connection-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "github connect deployment"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "WebOps GitHub integration"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "WebOps GitHub repository connection"
+        }
+      ]
+    },
+    {
+      "issue_id": "webstore-oauth2-01",
+      "source_file": "webstore-oauth2-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "custom login external identity"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "OAuth webstore identity provider configure"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "login integration guide webstore OAuth2"
+        }
+      ]
+    }
+  ]
+}

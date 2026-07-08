@@ -1,0 +1,60 @@
+.vscode/settings.json
+
+# API credentials (do not commit)
+.env
+.env.local
+*.env
+
+# Playwright persistent profile (cookies/session)
+.playwright-profile
+
+# Playwright MCP debug snapshots and console logs
+.playwright-mcp/
+
+# LLM runner auth — session tokens and browser profiles
+data/test-suite/external-llms/.auth/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+*.pyo
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+temp/

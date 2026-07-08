@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>__PAGE_TITLE__</title>
+    <link rel="stylesheet" href="dashboard.css" />
+  </head>
+  <body data-dashboard-mode="comparisons-index">
+    <header class="hero">
+      <div class="hero__inner">
+        <div>
+          <p class="hero__eyebrow">VTEX Education - Analysis Dashboard</p>
+          <h1>__DASHBOARD_TITLE__</h1>
+          <p class="hero__subtitle">__DASHBOARD_SUBTITLE__</p>
+        </div>
+      </div>
+    </header>
+
+    __DASHBOARD_NAV__
+    __DASHBOARD_HELP__
+
+    <main class="page-shell">
+      <p class="lede">__INDEX_NOTE__</p>
+      <div class="table-wrap">
+        <table class="data-table data-table--compact js-sortable">
+          <thead>
+            <tr>
+              <th><button class="sort-button" type="button" data-sort-key="run_id">Comparison</button></th>
+              <th><button class="sort-button" type="button" data-sort-key="timestamp">Date</button></th>
+              <th><button class="sort-button" type="button" data-sort-key="kind">Type</button></th>
+              <th>Baseline run</th>
+              <th>Candidate run</th>
+              <th><button class="sort-button" type="button" data-sort-key="delta_target_pass">Δ target pass</button></th>
+              <th>Dashboard</th>
+            </tr>
+          </thead>
+          <tbody>
+            __ROWS__
+          </tbody>
+        </table>
+      </div>
+      <p class="footer-note">__FOOTER_NOTE__</p>
+    </main>
+    <script>
+      document.querySelectorAll('.js-sortable thead th .sort-button').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const table = btn.closest('table');
+          const tbody = table.querySelector('tbody');
+          const key = btn.dataset.sortKey;
+          const rows = Array.from(tbody.querySelectorAll('tr'));
+          const asc = btn.dataset.sortDir !== 'asc';
+          btn.dataset.sortDir = asc ? 'asc' : 'desc';
+          rows.sort((a, b) => {
+            const av = a.dataset[key] || '';
+            const bv = b.dataset[key] || '';
+            const an = parseFloat(av);
+            const bn = parseFloat(bv);
+            if (!Number.isNaN(an) && !Number.isNaN(bn)) {
+              return asc ? an - bn : bn - an;
+            }
+            return asc ? av.localeCompare(bv) : bv.localeCompare(av);
+          });
+          rows.forEach((row) => tbody.appendChild(row));
+        });
+      });
+    </script>
+  </body>
+</html>

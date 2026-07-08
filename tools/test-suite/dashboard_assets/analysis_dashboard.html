@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>__PAGE_TITLE__</title>
+    <link rel="stylesheet" href="assets/dashboard.css" />
+    <link rel="stylesheet" href="assets/analysis_dashboard.css" />
+    <script src="assets/chart.umd.min.js"></script>
+    <script defer src="assets/dashboard-data.js"></script>
+    <script defer src="assets/dashboard_shared.js"></script>
+    <script defer src="assets/dashboard.js"></script>
+  </head>
+  <body data-dashboard-mode="__MODE__">
+    <header class="hero">
+      <div class="hero__inner">
+        <p class="hero__eyebrow">VTEX Education - Analysis Dashboard</p>
+        <div class="hero__headings">
+          <h1>__DASHBOARD_TITLE__</h1>
+          <p class="hero__subtitle">__DASHBOARD_SUBTITLE__</p>
+        </div>
+        <div class="hero__actions">
+          <button class="ghost-button" type="button" data-presentation-mode aria-pressed="false">Presentation mode</button>
+          <button class="ghost-button" type="button" data-expand-all>Expand All</button>
+          <button class="ghost-button" type="button" data-collapse-all>Collapse All</button>
+        </div>
+      </div>
+    </header>
+
+    __DASHBOARD_NAV__
+    __DASHBOARD_HELP__
+    __RELATED_LINKS__
+
+    <nav class="section-nav">
+      __SECTION_NAV__
+    </nav>
+
+    <main class="page-shell">
+      __SECTIONS__
+    </main>
+  </body>
+</html>

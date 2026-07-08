@@ -1,0 +1,1343 @@
+{
+  "path": "External search",
+  "generated_from": "docs\\test-suite\\issues",
+  "total_issues": 35,
+  "total_queries": 225,
+  "issues": [
+    {
+      "issue_id": "audit-search-01",
+      "source_file": "audit-search-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "does vtex have audit logging capabilities"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "vtex audit trail security compliance"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "vtex audit platform security features"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "o vtex tem recursos de registro de auditoria"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "vtex trilha de auditoria segurança conformidade"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "vtex plataforma de auditoria recursos de segurança"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "vtex tiene capacidades de registro de auditoría"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "vtex rastro de auditoría seguridad cumplimiento"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "vtex plataforma de auditoría características de seguridad"
+        }
+      ]
+    },
+    {
+      "issue_id": "bitcoin-payment-01",
+      "source_file": "bitcoin-payment-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how to enable bitcoin payments in my vtex store"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "configure bitcoin payment method vtex"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "enabling payments with bitcoin vtex"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "como habilitar pagamentos com bitcoin na minha loja vtex"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "configurar método de pagamento bitcoin vtex"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "habilitar pagamentos com bitcoin vtex"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "cómo habilitar pagos con bitcoin en mi tienda vtex"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "configurar método de pago bitcoin vtex"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "habilitar pagos con bitcoin vtex"
+        }
+      ]
+    },
+    {
+      "issue_id": "budgets-api-01",
+      "source_file": "budgets-api-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how to create budgets in vtex using the api"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "create budget api vtex"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "budgets api create budget vtex"
+        }
+      ]
+    },
+    {
+      "issue_id": "checkout-api-orders-01",
+      "source_file": "checkout-api-orders-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how to send order data in vtex checkout api what format"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "checkout api update order request body format vtex"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "checkout api put orders json payload structure vtex"
+        }
+      ]
+    },
+    {
+      "issue_id": "cms-migration-01",
+      "source_file": "cms-migration-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "How to migrate my VTEX online store without breaking it and how to undo if something goes wrong"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "VTEX CMS Legacy to Store Framework migration production impact and rollback"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "VTEX Store Framework migration production deployment strategy rollback procedures CMS Legacy"
+        }
+      ]
+    },
+    {
+      "issue_id": "conciliations-payment-01",
+      "source_file": "conciliations-payment-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how to reconcile bank slip payments in vtex"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "manage bank reconciliation for boleto payments vtex"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "bank reconciliations vtex payments"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "como conciliar pagamentos com boleto no vtex"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "gerenciar conciliação bancária para pagamentos com boleto vtex"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "conciliações bancárias vtex pagamentos"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "cómo conciliar pagos con boleto en vtex"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "gestionar conciliación bancaria para pagos con boleto vtex"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "conciliaciones bancarias vtex pagos"
+        }
+      ]
+    },
+    {
+      "issue_id": "conditions-payment-01",
+      "source_file": "conditions-payment-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how to set special conditions for payment methods in vtex"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "configure special payment conditions vtex"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "special conditions vtex payments"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "como configurar condições especiais para métodos de pagamento no vtex"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "configurar condições especiais de pagamento vtex"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "condições especiais vtex pagamentos"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "cómo configurar condiciones especiales para métodos de pago en vtex"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "configurar condiciones especiales de pago vtex"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "condiciones especiales vtex pagos"
+        }
+      ]
+    },
+    {
+      "issue_id": "content-delivery-optimization-01",
+      "source_file": "content-delivery-optimization-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how does VTEX handle content delivery optimization"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "VTEX CDN content delivery network performance"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "VTEX cloud infrastructure content delivery optimization"
+        }
+      ]
+    },
+    {
+      "issue_id": "customer-credit-01",
+      "source_file": "customer-credit-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how to manage customer credit accounts in vtex using the api"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "manage customer credit api vtex"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "managing a customer credit account vtex api"
+        }
+      ]
+    },
+    {
+      "issue_id": "faststore-dynamic-routes-plp-01",
+      "source_file": "faststore-dynamic-routes-plp-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how to make product category pages load different URLs in VTEX FastStore"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "FastStore product listing page routing configuration"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "how to implement dynamic routes for PLPs in FastStore"
+        }
+      ]
+    },
+    {
+      "issue_id": "faststore-variable-renaming-01",
+      "source_file": "faststore-variable-renaming-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how do I change variable names in my VTEX faststore site"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "renaming variables faststore project"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "FastStore variable renaming configuration"
+        }
+      ]
+    },
+    {
+      "issue_id": "github-repository-migration-01",
+      "source_file": "github-repository-migration-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how to move a VTEX code repository to a different company account"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "migrate GitHub repository to another organization"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "transfer GitHub repository ownership between organizations"
+        }
+      ]
+    },
+    {
+      "issue_id": "live-shopping-component-01",
+      "source_file": "live-shopping-component-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how to add live video player to my VTEX ecommerce website"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "VTEX Live Shopping component setup storefront"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "placing the Live Shopping component VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "como adicionar player de vídeo ao vivo no meu site de ecommerce VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "configuração do componente Live Shopping VTEX storefront"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "inserir componente Live Shopping VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "cómo agregar reproductor de video en vivo a mi sitio de ecommerce VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "configuración del componente Live Shopping VTEX storefront"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "insertar componente Live Shopping VTEX"
+        }
+      ]
+    },
+    {
+      "issue_id": "live-shopping-faststore-01",
+      "source_file": "live-shopping-faststore-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how to add live video streaming to my VTEX online store"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "VTEX FastStore live shopping setup"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "implementing live shopping for FastStore VTEX"
+        }
+      ]
+    },
+    {
+      "issue_id": "marketplace-orders-integration-01",
+      "source_file": "marketplace-orders-integration-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "VTEX marketplace orders not integrating"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "VTEX marketplace order integration errors troubleshooting"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "why don't marketplace orders integrate with VTEX store"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "pedidos do marketplace VTEX não integrando"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "erros de integração de pedidos do marketplace VTEX solução de problemas"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "por que os pedidos do marketplace não integram com a loja VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "pedidos del marketplace VTEX sin integrar"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "errores de integración de pedidos del marketplace VTEX solución de problemas"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "por qué los pedidos del marketplace no se integran con la tienda VTEX"
+        }
+      ]
+    },
+    {
+      "issue_id": "orders-api-changes-01",
+      "source_file": "orders-api-changes-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how to get order changes history in VTEX using the api"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "get order modifications history api vtex"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "orders api get order changes vtex"
+        }
+      ]
+    },
+    {
+      "issue_id": "orders-api-invoice-date-01",
+      "source_file": "orders-api-invoice-date-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how to find orders by invoice date in VTEX"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "VTEX orders api filter by invoice creation date"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "VTEX orders api get orders by invoice date"
+        }
+      ]
+    },
+    {
+      "issue_id": "payment-provider-01",
+      "source_file": "payment-provider-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how do i add a new payment provider to vtex"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "integrate payment provider vtex platform"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "integrating a new payment provider on vtex"
+        }
+      ]
+    },
+    {
+      "issue_id": "payment-provider-02",
+      "source_file": "payment-provider-02.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how do i build a payment provider for vtex"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "develop a payment provider for vtex payments"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "payments integration implementing a payment provider vtex"
+        }
+      ]
+    },
+    {
+      "issue_id": "pix-payment-01",
+      "source_file": "pix-payment-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "accept instant bank transfers from customers in my VTEX online store"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "enable PIX payment in my VTEX store"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "how to set up PIX payment provider in VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "aceitar transferências bancárias instantâneas de clientes na minha loja VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "habilitar pagamento PIX na minha loja VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "como configurar provedor de pagamento PIX no VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "aceptar transferencias bancarias instantáneas de clientes en mi tienda VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "habilitar pago PIX en mi tienda VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "cómo configurar proveedor de pago PIX en VTEX"
+        }
+      ]
+    },
+    {
+      "issue_id": "product-excel-01",
+      "source_file": "product-excel-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "get all my VTEX products in a spreadsheet"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "VTEX export catalog to Excel"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "export all product information to Excel VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "obter todos os meus produtos VTEX em uma planilha"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "VTEX exportar catálogo para Excel"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "exportar todas as informações de produtos para Excel VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "obtener todos mis productos VTEX en una hoja de cálculo"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "VTEX exportar catálogo a Excel"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "exportar toda la información de productos a Excel VTEX"
+        }
+      ]
+    },
+    {
+      "issue_id": "product-indexing-01",
+      "source_file": "product-indexing-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "my products are not updating in search results on my VTEX store"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "VTEX product indexing issues troubleshooting"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "VTEX catalog indexing problems solution"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "meus produtos não estão sendo atualizados nos resultados de busca da minha loja VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "problemas de indexação de produtos VTEX solução de problemas"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "solução de problemas de indexação do catálogo VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "mis productos no se actualizan en los resultados de búsqueda de mi tienda VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "problemas de indexación de productos VTEX solución de problemas"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "solución de problemas de indexación del catálogo VTEX"
+        }
+      ]
+    },
+    {
+      "issue_id": "product-not-visible-01",
+      "source_file": "product-not-visible-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "my products are not showing on my VTEX online store"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "VTEX product not visible on website"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "why is the product not visible on the website VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "meus produtos não estão aparecendo na minha loja VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "VTEX produto não visível no site"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "por que o produto não está visível no site VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "mis productos no aparecen en mi tienda VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "VTEX producto no visible en el sitio web"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "por qué el producto no está visible en el sitio web VTEX"
+        }
+      ]
+    },
+    {
+      "issue_id": "pwa-implementation-01",
+      "source_file": "pwa-implementation-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how do I make my VTEX online store work offline and install like an app"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "convert ecommerce site to progressive web app"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "VTEX IO PWA implementation guide"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "como faço minha loja VTEX funcionar offline e instalar como um aplicativo"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "converter site de ecommerce em aplicativo web progressivo"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "guia de implementação PWA VTEX IO"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "cómo hago que mi tienda VTEX funcione sin conexión y se instale como una app"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "convertir sitio de ecommerce en aplicación web progresiva"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "guía de implementación PWA VTEX IO"
+        }
+      ]
+    },
+    {
+      "issue_id": "refund-payment-01",
+      "source_file": "refund-payment-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how to see how a payment refund was made in vtex"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "identify payment refund method vtex"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "payment refunds vtex"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "como ver como um reembolso de pagamento foi feito no vtex"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "identificar método de reembolso de pagamento vtex"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "reembolso de pagamentos vtex"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "cómo ver cómo se realizó un reembolso de pago en vtex"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "identificar método de reembolso de pago vtex"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "reembolso de pagos vtex"
+        }
+      ]
+    },
+    {
+      "issue_id": "sales-associates-salesapp-01",
+      "source_file": "sales-associates-salesapp-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how to add store employees to my VTEX point of sale app"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "VTEX Sales App add sales associates"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "managing sales associates in VTEX Sales App"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "como adicionar funcionários da loja ao meu aplicativo VTEX de ponto de venda"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "VTEX Sales App adicionar vendedores"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "gerenciar vendedores no VTEX Sales App"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "cómo agregar empleados de tienda a mi app de punto de venta VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "VTEX Sales App agregar vendedores"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "gestionar vendedores en VTEX Sales App"
+        }
+      ]
+    },
+    {
+      "issue_id": "sap-catalog-01",
+      "source_file": "sap-catalog-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "bring my product catalog from my business software into my VTEX online store"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "sync SAP product catalog to VTEX store"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "integrate catalog from SAP ERP to VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "trazer o catálogo de produtos do meu software empresarial para a minha loja VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "sincronizar catálogo de produtos SAP com a loja VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "integrar catálogo do SAP ERP ao VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "llevar el catálogo de productos de mi software empresarial a mi tienda VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "sincronizar catálogo de productos SAP con la tienda VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "integrar catálogo de SAP ERP a VTEX"
+        }
+      ]
+    },
+    {
+      "issue_id": "settlement-payment-01",
+      "source_file": "settlement-payment-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "types of payment settlement in vtex"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "vtex payment settlement types"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "payment settlement types vtex"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "tipos de liquidação de pagamento no vtex"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "vtex tipos de liquidação de pagamento"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "tipos de liquidação de pagamento vtex"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "tipos de liquidación de pagos en vtex"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "vtex tipos de liquidación de pagos"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "tipos de liquidación de pagos vtex"
+        }
+      ]
+    },
+    {
+      "issue_id": "shopee-integration-01",
+      "source_file": "shopee-integration-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "connect my VTEX online store to Shopee so I can sell there"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "VTEX Shopee marketplace connector setup"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "install and configure Shopee connector VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "conectar minha loja VTEX ao Shopee para vender lá"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "configuração do conector de marketplace VTEX Shopee"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "instalar e configurar conector Shopee VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "conectar mi tienda VTEX a Shopee para vender allí"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "configuración del conector de marketplace VTEX Shopee"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "instalar y configurar conector Shopee VTEX"
+        }
+      ]
+    },
+    {
+      "issue_id": "split-payment-01",
+      "source_file": "split-payment-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how does payment split work in vtex"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "vtex payment split explained"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "split payment vtex"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "como funciona o split de pagamento no vtex"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "vtex split de pagamento explicado"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "split de pagamento vtex"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "cómo funciona el split de pagos en vtex"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "vtex split de pagos explicado"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "split de pagos vtex"
+        }
+      ]
+    },
+    {
+      "issue_id": "store-order-not-created-01",
+      "source_file": "store-order-not-created-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "VTEX order not created troubleshooting"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "VTEX store order creation error inventory"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "my store order was not created VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "solução de problemas de pedido VTEX não criado"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "erro de criação de pedido VTEX inventário"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "o pedido da minha loja não foi criado VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "solución de problemas de pedido VTEX no creado"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "error de creación de pedido VTEX inventario"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "el pedido de mi tienda no fue creado VTEX"
+        }
+      ]
+    },
+    {
+      "issue_id": "support-work-01",
+      "source_file": "support-work-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how does VTEX support work"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "VTEX support system how to get help"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "VTEX support plans ticket system"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "como funciona o suporte da VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "sistema de suporte VTEX como obter ajuda"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "planos de suporte VTEX sistema de tickets"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "cómo funciona el soporte de VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "sistema de soporte VTEX cómo obtener ayuda"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "planes de soporte VTEX sistema de tickets"
+        }
+      ]
+    },
+    {
+      "issue_id": "unified-commerce-capabilities-01",
+      "source_file": "unified-commerce-capabilities-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "what are VTEX's omnichannel capabilities"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "VTEX unified commerce features"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "VTEX unified commerce strategy"
+        },
+        {
+          "locale": "pt",
+          "style": "naive",
+          "query": "quais são as capacidades omnichannel da VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "familiar",
+          "query": "recursos de comércio unificado VTEX"
+        },
+        {
+          "locale": "pt",
+          "style": "expert",
+          "query": "estratégia de comércio unificado VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "naive",
+          "query": "cuáles son las capacidades omnichannel de VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "familiar",
+          "query": "características de comercio unificado VTEX"
+        },
+        {
+          "locale": "es",
+          "style": "expert",
+          "query": "estrategia de comercio unificado VTEX"
+        }
+      ]
+    },
+    {
+      "issue_id": "webops-github-connection-01",
+      "source_file": "webops-github-connection-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "how do I link my VTEX website deployment tool to github"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "connect WebOps to GitHub repository"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "VTEX WebOps GitHub integration setup guide"
+        }
+      ]
+    },
+    {
+      "issue_id": "webstore-oauth2-01",
+      "source_file": "webstore-oauth2-01.md",
+      "queries": [
+        {
+          "locale": "en",
+          "style": "naive",
+          "query": "let customers log in with our company login instead of creating a new account in VTEX"
+        },
+        {
+          "locale": "en",
+          "style": "familiar",
+          "query": "custom OAuth login for webstore VTEX identity provider"
+        },
+        {
+          "locale": "en",
+          "style": "expert",
+          "query": "VTEX webstore custom OAuth 2.0 integration guide"
+        }
+      ]
+    }
+  ]
+}
