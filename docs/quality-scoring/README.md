@@ -4,8 +4,13 @@ Score AI-generated responses using Cursor Agent with built-in Claude. **Zero API
 
 This page is a quick overview. For details, see:
 
-- **All commands & flags:** [CURSOR_COMMANDS.md](CURSOR_COMMANDS.md)
+- **All workflows & flags:** [CURSOR_COMMANDS.md](CURSOR_COMMANDS.md)
 - **Architecture, data formats & scoring rubric:** [quality-scoring.md](quality-scoring.md)
+
+> **These workflows ship as Cursor _skills_** in [`.cursor/skills/`](../../.cursor/skills/), not
+> `/` commands. Run one by asking the Cursor agent for the task (e.g. _"run the
+> quality-scoring-workflow skill"_). The `/<name>` shorthand below is just a stable label for
+> each skill.
 
 ---
 
@@ -96,7 +101,7 @@ See [quality-scoring.md](quality-scoring.md#directory-versioning) for the versio
 
 ## Agent Guidelines
 
-Agents running these commands must keep the workspace clean (outputs only in timestamped directories, use existing tools in `tools/quality-scoring/`, run the workflow once per session, clean up temp files). The authoritative version of these rules lives in the [`/quality-scoring-workflow`](../../.cursor/commands/quality-scoring-workflow.md) command under "Best Practices & Agent Guidelines".
+Agents running these workflows must keep the workspace clean (outputs only in timestamped directories, use existing tools in `tools/quality-scoring/`, run the workflow once per session, clean up temp files). The authoritative version of these rules lives in the [`quality-scoring-workflow`](../../.cursor/skills/quality-scoring-workflow/SKILL.md) skill under "Best Practices & Agent Guidelines".
 
 ---
 

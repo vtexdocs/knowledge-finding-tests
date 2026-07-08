@@ -75,6 +75,11 @@ Start with the hand-off guide: [`docs/test-suite-hand-off/README.md`](docs/test-
 | [quality-scoring.md](docs/test-suite-hand-off/quality-scoring.md) | Evaluate AI answer quality |
 | [workflow-guide.md](docs/test-suite-hand-off/workflow-guide.md) | Know when to run tests and how to act on results |
 
+For deeper reference beyond onboarding:
+
+- **Per-tool details** — [`docs/test-suite/`](docs/test-suite/README.md) (one doc per runner + the analysis system) and [`docs/quality-scoring/`](docs/quality-scoring/README.md).
+- **Automation** — common workflows ship as Cursor skills in [`.cursor/skills/`](.cursor/skills/); ask the Cursor agent to run one by name (e.g. _"run the quality-scoring-workflow skill"_).
+
 ## Notes
 
 - `results/` ships empty (only `README.md`). Dashboards render once a first run produces data.

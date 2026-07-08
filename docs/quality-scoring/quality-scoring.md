@@ -539,15 +539,15 @@ jq -r '.[].issue_id' responses.json > issues.txt
 ## Project Structure
 
 ```
-.cursor/commands/
-├── generate-review-tool.md         [HTML review command (single & batch)]
-├── batch-status.md                 [Batch progress reporting]
-├── merge-batches.md                [Batch consolidation]
-└── quality-scoring-workflow.md     [Complete pipeline]
+.cursor/skills/
+├── generate-review-tool/SKILL.md      [HTML review skill (single & batch)]
+├── batch-status/SKILL.md              [Batch progress reporting]
+├── merge-batches/SKILL.md             [Batch consolidation]
+└── quality-scoring-workflow/SKILL.md  [Complete pipeline]
 
 docs/quality-scoring/
 ├── README.md                       [Start here]
-├── CURSOR_COMMANDS.md              [Command reference]
+├── CURSOR_COMMANDS.md              [Skills reference]
 └── quality-scoring.md              [This file - technical details]
 
 tools/quality-scoring/
@@ -582,16 +582,16 @@ results/
 export ANTHROPIC_API_KEY="sk-ant-..."
 ```
 
-**For Cursor commands:** No setup needed (uses built-in Claude)
+**For Cursor skills:** No setup needed (uses built-in Claude)
 
 ---
 
 ## See Also
 
 - [README.md](README.md) — Quick start & common workflows
-- [CURSOR_COMMANDS.md](CURSOR_COMMANDS.md) — Complete command reference
-- [`/batch-status`](../../.cursor/commands/batch-status.md) — Track progress across review batches
-- [`/merge-batches`](../../.cursor/commands/merge-batches.md) — Consolidate scored batches into one file
+- [CURSOR_COMMANDS.md](CURSOR_COMMANDS.md) — Complete skills reference
+- [`batch-status`](../../.cursor/skills/batch-status/SKILL.md) — Track progress across review batches
+- [`merge-batches`](../../.cursor/skills/merge-batches/SKILL.md) — Consolidate scored batches into one file
 
 ---
 

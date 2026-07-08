@@ -1,6 +1,12 @@
-# Cursor Commands Reference
+# Cursor Skills Reference
 
-Complete command guide for quality scoring.
+Complete guide to the quality-scoring workflows.
+
+> **These workflows ship as Cursor _skills_, not `/` commands.** Each `/<name>` below
+> corresponds to the skill in [`.cursor/skills/<name>/`](../../.cursor/skills/). To run one,
+> ask the Cursor agent for the task (e.g. _"run the quality-scoring-workflow skill"_) — the
+> agent loads the matching `SKILL.md`. The `/<name>` shorthand is kept here only as a stable
+> label for each workflow; the parameters and behavior described below are unchanged.
 
 ---
 
@@ -422,7 +428,7 @@ Quick reference:
 |-------|----------|
 | "File not found" | Check file path, use absolute path if needed |
 | "Invalid JSON" | Validate JSON format (use online validator) |
-| "Command not recognized" | Type `/` in Cursor to list available commands |
+| "Skill didn't run" | Ask the agent to run the skill by name; check it exists under `.cursor/skills/` |
 | "Claude not responding" | Retry in a moment, Cursor Agent may be busy |
 
 ---
@@ -548,10 +554,10 @@ automatic versioning — move them into a timestamped directory to preserve them
 
 - [README.md](README.md) — Overview & quick start
 - [quality-scoring.md](quality-scoring.md) — Technical details & scoring guide
-- [`/generate-review-tool`](../../.cursor/commands/generate-review-tool.md) — Review tool (single & batch mode)
-- [`/batch-status`](../../.cursor/commands/batch-status.md) — Track progress across review batches
-- [`/merge-batches`](../../.cursor/commands/merge-batches.md) — Consolidate scored batches into one file
-- Cursor commands in `.cursor/commands/` directory
+- [`generate-review-tool`](../../.cursor/skills/generate-review-tool/SKILL.md) — Review tool (single & batch mode)
+- [`batch-status`](../../.cursor/skills/batch-status/SKILL.md) — Track progress across review batches
+- [`merge-batches`](../../.cursor/skills/merge-batches/SKILL.md) — Consolidate scored batches into one file
+- All quality-scoring skills live in the [`.cursor/skills/`](../../.cursor/skills/) directory
 
 ---
 
